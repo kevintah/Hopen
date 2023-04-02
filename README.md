@@ -12,5 +12,5 @@ The goal is to create a multi activity android app in Kotlin
  
  
 
----- Motivated by tutorials about Kotlin by Google ----
+---- Partly motivated and very slightly based on tutorials about Kotlin by Google ---- My code is different
  
