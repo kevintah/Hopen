@@ -3314,7 +3314,6 @@ int id textinput_placeholder 0x7f0801cd
 int id textinput_prefix_text 0x7f0801ce
 int id textinput_suffix_text 0x7f0801cf
 int id textview 0x7f0801d0
-int id the_id 0x7f0801fc
 int id time 0x7f0801d1
 int id title 0x7f0801d2
 int id titleDividerNoCustom 0x7f0801d3
@@ -3635,7 +3634,6 @@ int string google_api_key 0x7f10004f
 int string google_app_id 0x7f100050
 int string google_crash_reporting_api_key 0x7f100051
 int string google_storage_bucket 0x7f100052
-int string hi 0x7f100053
 int string hide_bottom_view_on_scroll_behavior 0x7f100054
 int string icon_content_description 0x7f100055
 int string item_view_role_description 0x7f100056
@@ -3734,6 +3732,7 @@ int string mtrl_switch_track_decoration_path 0x7f1000b2
 int string mtrl_switch_track_path 0x7f1000b3
 int string mtrl_timepicker_cancel 0x7f1000b4
 int string mtrl_timepicker_confirm 0x7f1000b5
+int string open_data 0x7f1000c8
 int string password 0x7f1000c7
 int string password_toggle_content_description 0x7f1000b6
 int string path_password_eye 0x7f1000b7
@@ -3748,6 +3747,7 @@ int string searchview_navigation_content_description 0x7f1000bf
 int string side_sheet_accessibility_pane_title 0x7f1000c0
 int string side_sheet_behavior 0x7f1000c1
 int string status_bar_notification_info_overflow 0x7f1000c2
+int string welcome 0x7f1000c9
 int style AlertDialog_AppCompat 0x7f110000
 int style AlertDialog_AppCompat_Light 0x7f110001
 int style Animation_AppCompat_Dialog 0x7f110002

@@ -12,6 +12,10 @@
         "source": "C:\\Users\\knjokom\\.gradle\\daemon\\7.5\\com.example.hopen.app-main-37:\\mipmap-xhdpi\\ic_launcher.webp"
     },
     {
+        "merged": "com.example.hopen.app-merged_res-35:/layout_activity_another.xml.flat",
+        "source": "com.example.hopen.app-main-37:/layout/activity_another.xml"
+    },
+    {
         "merged": "C:\\Users\\knjokom\\.gradle\\daemon\\7.5\\com.example.hopen.app-merged_res-35:\\xml_data_extraction_rules.xml.flat",
         "source": "C:\\Users\\knjokom\\.gradle\\daemon\\7.5\\com.example.hopen.app-main-37:\\xml\\data_extraction_rules.xml"
     },
@@ -66,10 +70,6 @@
     {
         "merged": "C:\\Users\\knjokom\\.gradle\\daemon\\7.5\\com.example.hopen.app-merged_res-35:\\layout_activity_google_sign_in.xml.flat",
         "source": "C:\\Users\\knjokom\\.gradle\\daemon\\7.5\\com.example.hopen.app-main-37:\\layout\\activity_google_sign_in.xml"
-    },
-    {
-        "merged": "com.example.hopen.app-merged_res-35:/layout_activity_google_sign_in.xml.flat",
-        "source": "com.example.hopen.app-main-37:/layout/activity_google_sign_in.xml"
     },
     {
         "merged": "C:\\Users\\knjokom\\.gradle\\daemon\\7.5\\com.example.hopen.app-merged_res-35:\\mipmap-mdpi_ic_launcher_round.webp.flat",

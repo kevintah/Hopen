@@ -14,7 +14,6 @@ id google_sign_in
 id logout
 id text_display_name
 id textview
-id the_id
 layout activity_another
 layout activity_google_sign_in
 layout activity_main
@@ -41,9 +40,10 @@ string google_api_key
 string google_app_id
 string google_crash_reporting_api_key
 string google_storage_bucket
-string hi
+string open_data
 string password
 string project_id
+string welcome
 style Theme.Hopen
 xml backup_rules
 xml data_extraction_rules

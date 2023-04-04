@@ -28,9 +28,10 @@
     <string name="google_app_id" translatable="false">1:964499448539:android:6be1ae8aa675056d8c62fe</string>
     <string name="google_crash_reporting_api_key" translatable="false">AIzaSyAdoaCeDn-vk6KBd7wE_WG388QITkWlCWY</string>
     <string name="google_storage_bucket" translatable="false">hopen-f6b75.appspot.com</string>
-    <string name="hi">Hi</string>
+    <string name="open_data">Open Data</string>
     <string name="password"> Password</string>
     <string name="project_id" translatable="false">hopen-f6b75</string>
+    <string name="welcome">WELCOME TO HOPEN</string>
     <style name="Theme.Hopen" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
         
         <item name="colorPrimary">@color/purple_500</item>

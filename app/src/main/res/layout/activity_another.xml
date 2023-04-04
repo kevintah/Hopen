@@ -8,16 +8,11 @@
     tools:context=".AnotherActivity">
 
     <TextView
-        android:text="Great! You can access all the goodies!"
+        android:text="free and open data"
         android:textSize="25sp"
         android:padding="20sp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
 
-    <TextView
-        android:id="@+id/the_id"
-        android:layout_width="match_parent"
-        android:layout_height="100dp"
-        android:text="TextView" />
 
 </LinearLayout>

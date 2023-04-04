@@ -4,6 +4,7 @@ import android.content.ContentValues.TAG
 import android.content.Intent
 import android.os.Bundle
 import android.util.Log
+import android.widget.Button
 import androidx.appcompat.app.AppCompatActivity
 import com.example.hopen.databinding.ActivityMainBinding
 import com.google.android.gms.auth.api.signin.GoogleSignIn
@@ -40,7 +41,16 @@ class MainActivity : AppCompatActivity() {
         binding.googleSignIn.setOnClickListener {
             signIn()
         }
+
+        val btnStartAnotherActivity: Button = findViewById(R.id.btnStartAnotherActivity)
+        btnStartAnotherActivity.setOnClickListener {
+            val intent = Intent(this, AnotherActivity::class.java)
+            // start your next activity
+            startActivity(intent)
+        }
     }
+
+
 
     private fun signIn() {
         val signInIntent = googleSignInClient.signInIntent
