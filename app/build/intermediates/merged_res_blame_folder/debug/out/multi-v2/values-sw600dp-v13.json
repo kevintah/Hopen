@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.hopen.app-mergeDebugResources-27:/values-sw600dp-v13/values-sw600dp-v13.xml",
+            "outputFile": "com.example.hopen.app-mergeDebugResources-33:/values-sw600dp-v13/values-sw600dp-v13.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\knjokom\\.gradle\\caches\\transforms-3\\96633a36b2443f31ab7af5904bbf8cd0\\transformed\\material-1.8.0\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "source": "C:\\Users\\knjokom\\.gradle\\caches\\transforms-3\\e81e8596cccba82458e49b16a40ad0a3\\transformed\\material-1.8.0\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,10,11,12,13,14",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4",
@@ -23,7 +23,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\knjokom\\.gradle\\caches\\transforms-3\\2ea9e5655e11113e0b0b85bf6d8921f9\\transformed\\appcompat-1.6.1\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "source": "C:\\Users\\knjokom\\.gradle\\caches\\transforms-3\\0f058cc9808a82e06217ed5b9b9badd9\\transformed\\appcompat-1.6.1\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9",
                         "startColumns": "4,4,4,4,4,4,4,4",

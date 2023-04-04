@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "964499448539",
+    "project_id": "hopen-f6b75",
+    "storage_bucket": "hopen-f6b75.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:964499448539:android:6be1ae8aa675056d8c62fe",
+        "android_client_info": {
+          "package_name": "com.example.hopen"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "964499448539-8j4gcr8eudpm1e2vv3q8fcbntmu6nqsv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.hopen",
+            "certificate_hash": "5b721039bdfdf6226c84e8a4dbb801a53775a9f4"
+          }
+        },
+        {
+          "client_id": "964499448539-gktnqcnrbv393nsdqufhai901i3j805b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAdoaCeDn-vk6KBd7wE_WG388QITkWlCWY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "964499448539-gktnqcnrbv393nsdqufhai901i3j805b.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

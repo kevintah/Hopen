@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.hopen.app-mergeDebugResources-27:/values-v16/values-v16.xml",
+            "outputFile": "com.example.hopen.app-mergeDebugResources-33:/values-v16/values-v16.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\knjokom\\.gradle\\caches\\transforms-3\\9ab8d72609b93b1e3c5897c605ac8364\\transformed\\core-1.9.0\\res\\values-v16\\values-v16.xml",
+                    "source": "C:\\Users\\knjokom\\.gradle\\caches\\transforms-3\\cdcdb1d1e4ef977e37138e7e99142a4b\\transformed\\core-1.9.0\\res\\values-v16\\values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -14,7 +14,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\knjokom\\.gradle\\caches\\transforms-3\\2ea9e5655e11113e0b0b85bf6d8921f9\\transformed\\appcompat-1.6.1\\res\\values-v16\\values-v16.xml",
+                    "source": "C:\\Users\\knjokom\\.gradle\\caches\\transforms-3\\0f058cc9808a82e06217ed5b9b9badd9\\transformed\\appcompat-1.6.1\\res\\values-v16\\values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

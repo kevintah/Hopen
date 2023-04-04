@@ -10,87 +10,256 @@
 9        android:targetSdkVersion="33" />
 9-->C:\Users\knjokom\AndroidStudioProjects\Hopen2\app\src\main\AndroidManifest.xml
 10
-11    <permission
-11-->[androidx.core:core:1.9.0] C:\Users\knjokom\.gradle\caches\transforms-3\9ab8d72609b93b1e3c5897c605ac8364\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
-12        android:name="com.example.hopen.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
-12-->[androidx.core:core:1.9.0] C:\Users\knjokom\.gradle\caches\transforms-3\9ab8d72609b93b1e3c5897c605ac8364\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
-13        android:protectionLevel="signature" />
-13-->[androidx.core:core:1.9.0] C:\Users\knjokom\.gradle\caches\transforms-3\9ab8d72609b93b1e3c5897c605ac8364\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
-14
-15    <uses-permission android:name="com.example.hopen.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
-15-->[androidx.core:core:1.9.0] C:\Users\knjokom\.gradle\caches\transforms-3\9ab8d72609b93b1e3c5897c605ac8364\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
-15-->[androidx.core:core:1.9.0] C:\Users\knjokom\.gradle\caches\transforms-3\9ab8d72609b93b1e3c5897c605ac8364\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
-16
-17    <application
-17-->C:\Users\knjokom\AndroidStudioProjects\Hopen2\app\src\main\AndroidManifest.xml:5:5-28:19
-18        android:allowBackup="true"
-18-->C:\Users\knjokom\AndroidStudioProjects\Hopen2\app\src\main\AndroidManifest.xml:6:9-35
-19        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-19-->[androidx.core:core:1.9.0] C:\Users\knjokom\.gradle\caches\transforms-3\9ab8d72609b93b1e3c5897c605ac8364\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
-20        android:dataExtractionRules="@xml/data_extraction_rules"
-20-->C:\Users\knjokom\AndroidStudioProjects\Hopen2\app\src\main\AndroidManifest.xml:7:9-65
-21        android:debuggable="true"
-22        android:extractNativeLibs="false"
-23        android:fullBackupContent="@xml/backup_rules"
-23-->C:\Users\knjokom\AndroidStudioProjects\Hopen2\app\src\main\AndroidManifest.xml:8:9-54
-24        android:icon="@mipmap/ic_launcher"
-24-->C:\Users\knjokom\AndroidStudioProjects\Hopen2\app\src\main\AndroidManifest.xml:9:9-43
-25        android:label="@string/app_name"
-25-->C:\Users\knjokom\AndroidStudioProjects\Hopen2\app\src\main\AndroidManifest.xml:10:9-41
-26        android:supportsRtl="true"
-26-->C:\Users\knjokom\AndroidStudioProjects\Hopen2\app\src\main\AndroidManifest.xml:11:9-35
-27        android:testOnly="true"
-28        android:theme="@style/Theme.Hopen" >
-28-->C:\Users\knjokom\AndroidStudioProjects\Hopen2\app\src\main\AndroidManifest.xml:12:9-43
-29
-30        <!-- below is the code for default activity which is Main Activity -->
-31        <activity
-31-->C:\Users\knjokom\AndroidStudioProjects\Hopen2\app\src\main\AndroidManifest.xml:15:9-25:20
-32            android:name="com.example.hopen.MainActivity"
-32-->C:\Users\knjokom\AndroidStudioProjects\Hopen2\app\src\main\AndroidManifest.xml:15:19-47
-33            android:exported="true" >
-33-->C:\Users\knjokom\AndroidStudioProjects\Hopen2\app\src\main\AndroidManifest.xml:16:13-36
-34
-35            <!--
-36                Inside this activity you should be having below code for
-37                intent filter which will check the default activity
-38            -->
-39            <intent-filter>
-39-->C:\Users\knjokom\AndroidStudioProjects\Hopen2\app\src\main\AndroidManifest.xml:20:13-24:29
-40                <action android:name="android.intent.action.MAIN" />
-40-->C:\Users\knjokom\AndroidStudioProjects\Hopen2\app\src\main\AndroidManifest.xml:21:17-69
-40-->C:\Users\knjokom\AndroidStudioProjects\Hopen2\app\src\main\AndroidManifest.xml:21:25-66
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->[com.google.firebase:firebase-auth:21.2.0] C:\Users\knjokom\.gradle\caches\transforms-3\20a2b3c4e40a9844151a9cce28d8f2ea\transformed\firebase-auth-21.2.0\AndroidManifest.xml:25:5-67
+11-->[com.google.firebase:firebase-auth:21.2.0] C:\Users\knjokom\.gradle\caches\transforms-3\20a2b3c4e40a9844151a9cce28d8f2ea\transformed\firebase-auth-21.2.0\AndroidManifest.xml:25:22-64
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->[com.google.firebase:firebase-auth:21.2.0] C:\Users\knjokom\.gradle\caches\transforms-3\20a2b3c4e40a9844151a9cce28d8f2ea\transformed\firebase-auth-21.2.0\AndroidManifest.xml:26:5-79
+12-->[com.google.firebase:firebase-auth:21.2.0] C:\Users\knjokom\.gradle\caches\transforms-3\20a2b3c4e40a9844151a9cce28d8f2ea\transformed\firebase-auth-21.2.0\AndroidManifest.xml:26:22-76
+13
+14    <permission
+14-->[androidx.core:core:1.9.0] C:\Users\knjokom\.gradle\caches\transforms-3\cdcdb1d1e4ef977e37138e7e99142a4b\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
+15        android:name="com.example.hopen.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+15-->[androidx.core:core:1.9.0] C:\Users\knjokom\.gradle\caches\transforms-3\cdcdb1d1e4ef977e37138e7e99142a4b\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
+16        android:protectionLevel="signature" />
+16-->[androidx.core:core:1.9.0] C:\Users\knjokom\.gradle\caches\transforms-3\cdcdb1d1e4ef977e37138e7e99142a4b\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
+17
+18    <uses-permission android:name="com.example.hopen.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+18-->[androidx.core:core:1.9.0] C:\Users\knjokom\.gradle\caches\transforms-3\cdcdb1d1e4ef977e37138e7e99142a4b\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
+18-->[androidx.core:core:1.9.0] C:\Users\knjokom\.gradle\caches\transforms-3\cdcdb1d1e4ef977e37138e7e99142a4b\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
+19
+20    <application
+20-->C:\Users\knjokom\AndroidStudioProjects\Hopen2\app\src\main\AndroidManifest.xml:5:5-35:19
+21        android:allowBackup="true"
+21-->C:\Users\knjokom\AndroidStudioProjects\Hopen2\app\src\main\AndroidManifest.xml:6:9-35
+22        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+22-->[androidx.core:core:1.9.0] C:\Users\knjokom\.gradle\caches\transforms-3\cdcdb1d1e4ef977e37138e7e99142a4b\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
+23        android:dataExtractionRules="@xml/data_extraction_rules"
+23-->C:\Users\knjokom\AndroidStudioProjects\Hopen2\app\src\main\AndroidManifest.xml:7:9-65
+24        android:debuggable="true"
+25        android:extractNativeLibs="false"
+26        android:fullBackupContent="@xml/backup_rules"
+26-->C:\Users\knjokom\AndroidStudioProjects\Hopen2\app\src\main\AndroidManifest.xml:8:9-54
+27        android:icon="@mipmap/ic_launcher"
+27-->C:\Users\knjokom\AndroidStudioProjects\Hopen2\app\src\main\AndroidManifest.xml:9:9-43
+28        android:label="@string/app_name"
+28-->C:\Users\knjokom\AndroidStudioProjects\Hopen2\app\src\main\AndroidManifest.xml:10:9-41
+29        android:supportsRtl="true"
+29-->C:\Users\knjokom\AndroidStudioProjects\Hopen2\app\src\main\AndroidManifest.xml:11:9-35
+30        android:testOnly="true"
+31        android:theme="@style/Theme.Hopen" >
+31-->C:\Users\knjokom\AndroidStudioProjects\Hopen2\app\src\main\AndroidManifest.xml:12:9-43
+32        <activity
+32-->C:\Users\knjokom\AndroidStudioProjects\Hopen2\app\src\main\AndroidManifest.xml:14:9-16:40
+33            android:name="com.example.hopen.GoogleSignInActivity"
+33-->C:\Users\knjokom\AndroidStudioProjects\Hopen2\app\src\main\AndroidManifest.xml:15:13-49
+34            android:exported="false" />
+34-->C:\Users\knjokom\AndroidStudioProjects\Hopen2\app\src\main\AndroidManifest.xml:16:13-37
+35        <activity
+35-->C:\Users\knjokom\AndroidStudioProjects\Hopen2\app\src\main\AndroidManifest.xml:17:9-19:40
+36            android:name="com.example.hopen.YouSignedIn"
+36-->C:\Users\knjokom\AndroidStudioProjects\Hopen2\app\src\main\AndroidManifest.xml:18:13-40
+37            android:exported="false" /> <!-- below is the code for default activity which is Main Activity -->
+37-->C:\Users\knjokom\AndroidStudioProjects\Hopen2\app\src\main\AndroidManifest.xml:19:13-37
+38        <activity
+38-->C:\Users\knjokom\AndroidStudioProjects\Hopen2\app\src\main\AndroidManifest.xml:20:9-33:20
+39            android:name="com.example.hopen.MainActivity"
+39-->C:\Users\knjokom\AndroidStudioProjects\Hopen2\app\src\main\AndroidManifest.xml:21:13-41
+40            android:exported="true" >
+40-->C:\Users\knjokom\AndroidStudioProjects\Hopen2\app\src\main\AndroidManifest.xml:22:13-36
 41
-42                <category android:name="android.intent.category.LAUNCHER" />
-42-->C:\Users\knjokom\AndroidStudioProjects\Hopen2\app\src\main\AndroidManifest.xml:23:17-77
-42-->C:\Users\knjokom\AndroidStudioProjects\Hopen2\app\src\main\AndroidManifest.xml:23:27-74
-43            </intent-filter>
-44        </activity>
-45        <activity android:name="com.example.hopen.AnotherActivity" />
-45-->C:\Users\knjokom\AndroidStudioProjects\Hopen2\app\src\main\AndroidManifest.xml:26:9-62
-45-->C:\Users\knjokom\AndroidStudioProjects\Hopen2\app\src\main\AndroidManifest.xml:26:19-50
-46
-47        <provider
-47-->[androidx.emoji2:emoji2:1.2.0] C:\Users\knjokom\.gradle\caches\transforms-3\73abe0b323b9e45eb6d48789e74f41c0\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
-48            android:name="androidx.startup.InitializationProvider"
-48-->[androidx.emoji2:emoji2:1.2.0] C:\Users\knjokom\.gradle\caches\transforms-3\73abe0b323b9e45eb6d48789e74f41c0\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
-49            android:authorities="com.example.hopen.androidx-startup"
-49-->[androidx.emoji2:emoji2:1.2.0] C:\Users\knjokom\.gradle\caches\transforms-3\73abe0b323b9e45eb6d48789e74f41c0\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
-50            android:exported="false" >
-50-->[androidx.emoji2:emoji2:1.2.0] C:\Users\knjokom\.gradle\caches\transforms-3\73abe0b323b9e45eb6d48789e74f41c0\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
-51            <meta-data
-51-->[androidx.emoji2:emoji2:1.2.0] C:\Users\knjokom\.gradle\caches\transforms-3\73abe0b323b9e45eb6d48789e74f41c0\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
-52                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-52-->[androidx.emoji2:emoji2:1.2.0] C:\Users\knjokom\.gradle\caches\transforms-3\73abe0b323b9e45eb6d48789e74f41c0\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
-53                android:value="androidx.startup" />
-53-->[androidx.emoji2:emoji2:1.2.0] C:\Users\knjokom\.gradle\caches\transforms-3\73abe0b323b9e45eb6d48789e74f41c0\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
-54            <meta-data
-54-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\knjokom\.gradle\caches\transforms-3\ca29b3e243c7c9bf4050c53ae15f3b57\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
-55                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-55-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\knjokom\.gradle\caches\transforms-3\ca29b3e243c7c9bf4050c53ae15f3b57\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
-56                android:value="androidx.startup" />
-56-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\knjokom\.gradle\caches\transforms-3\ca29b3e243c7c9bf4050c53ae15f3b57\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
-57        </provider>
-58    </application>
-59
-60</manifest>
+42            <!--
+43                Inside this activity you should be having below code for
+44                intent filter which will check the default activity
+45            -->
+46            <intent-filter>
+46-->C:\Users\knjokom\AndroidStudioProjects\Hopen2\app\src\main\AndroidManifest.xml:28:13-32:29
+47                <action android:name="android.intent.action.MAIN" />
+47-->C:\Users\knjokom\AndroidStudioProjects\Hopen2\app\src\main\AndroidManifest.xml:29:17-69
+47-->C:\Users\knjokom\AndroidStudioProjects\Hopen2\app\src\main\AndroidManifest.xml:29:25-66
+48
+49                <category android:name="android.intent.category.LAUNCHER" />
+49-->C:\Users\knjokom\AndroidStudioProjects\Hopen2\app\src\main\AndroidManifest.xml:31:17-77
+49-->C:\Users\knjokom\AndroidStudioProjects\Hopen2\app\src\main\AndroidManifest.xml:31:27-74
+50            </intent-filter>
+51        </activity>
+52        <activity android:name="com.example.hopen.AnotherActivity" />
+52-->C:\Users\knjokom\AndroidStudioProjects\Hopen2\app\src\main\AndroidManifest.xml:34:9-53
+52-->C:\Users\knjokom\AndroidStudioProjects\Hopen2\app\src\main\AndroidManifest.xml:34:19-50
+53
+54        <service
+54-->[com.google.firebase:firebase-auth-ktx:21.2.0] C:\Users\knjokom\.gradle\caches\transforms-3\f9868606cddf553833fe46d7e65fca6d\transformed\firebase-auth-ktx-21.2.0\AndroidManifest.xml:8:9-14:19
+55            android:name="com.google.firebase.components.ComponentDiscoveryService"
+55-->[com.google.firebase:firebase-auth-ktx:21.2.0] C:\Users\knjokom\.gradle\caches\transforms-3\f9868606cddf553833fe46d7e65fca6d\transformed\firebase-auth-ktx-21.2.0\AndroidManifest.xml:9:13-84
+56            android:directBootAware="true"
+56-->[com.google.firebase:firebase-common:20.2.0] C:\Users\knjokom\.gradle\caches\transforms-3\3b0fe9a5e8901b29e1e986071e3e85a9\transformed\firebase-common-20.2.0\AndroidManifest.xml:34:13-43
+57            android:exported="false" >
+57-->[com.google.firebase:firebase-auth-ktx:21.2.0] C:\Users\knjokom\.gradle\caches\transforms-3\f9868606cddf553833fe46d7e65fca6d\transformed\firebase-auth-ktx-21.2.0\AndroidManifest.xml:10:13-37
+58            <meta-data
+58-->[com.google.firebase:firebase-auth-ktx:21.2.0] C:\Users\knjokom\.gradle\caches\transforms-3\f9868606cddf553833fe46d7e65fca6d\transformed\firebase-auth-ktx-21.2.0\AndroidManifest.xml:11:13-13:85
+59                android:name="com.google.firebase.components:com.google.firebase.auth.ktx.FirebaseAuthKtxRegistrar"
+59-->[com.google.firebase:firebase-auth-ktx:21.2.0] C:\Users\knjokom\.gradle\caches\transforms-3\f9868606cddf553833fe46d7e65fca6d\transformed\firebase-auth-ktx-21.2.0\AndroidManifest.xml:12:17-116
+60                android:value="com.google.firebase.components.ComponentRegistrar" />
+60-->[com.google.firebase:firebase-auth-ktx:21.2.0] C:\Users\knjokom\.gradle\caches\transforms-3\f9868606cddf553833fe46d7e65fca6d\transformed\firebase-auth-ktx-21.2.0\AndroidManifest.xml:13:17-82
+61            <meta-data
+61-->[com.google.firebase:firebase-common-ktx:20.2.0] C:\Users\knjokom\.gradle\caches\transforms-3\6b23d7ea71af05d923135b724e833f2c\transformed\firebase-common-ktx-20.2.0\AndroidManifest.xml:14:13-16:85
+62                android:name="com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonKtxRegistrar"
+62-->[com.google.firebase:firebase-common-ktx:20.2.0] C:\Users\knjokom\.gradle\caches\transforms-3\6b23d7ea71af05d923135b724e833f2c\transformed\firebase-common-ktx-20.2.0\AndroidManifest.xml:15:17-113
+63                android:value="com.google.firebase.components.ComponentRegistrar" />
+63-->[com.google.firebase:firebase-common-ktx:20.2.0] C:\Users\knjokom\.gradle\caches\transforms-3\6b23d7ea71af05d923135b724e833f2c\transformed\firebase-common-ktx-20.2.0\AndroidManifest.xml:16:17-82
+64            <meta-data
+64-->[com.google.firebase:firebase-auth:21.2.0] C:\Users\knjokom\.gradle\caches\transforms-3\20a2b3c4e40a9844151a9cce28d8f2ea\transformed\firebase-auth-21.2.0\AndroidManifest.xml:69:13-71:85
+65                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+65-->[com.google.firebase:firebase-auth:21.2.0] C:\Users\knjokom\.gradle\caches\transforms-3\20a2b3c4e40a9844151a9cce28d8f2ea\transformed\firebase-auth-21.2.0\AndroidManifest.xml:70:17-109
+66                android:value="com.google.firebase.components.ComponentRegistrar" />
+66-->[com.google.firebase:firebase-auth:21.2.0] C:\Users\knjokom\.gradle\caches\transforms-3\20a2b3c4e40a9844151a9cce28d8f2ea\transformed\firebase-auth-21.2.0\AndroidManifest.xml:71:17-82
+67        </service>
+68
+69        <activity
+69-->[com.google.firebase:firebase-auth:21.2.0] C:\Users\knjokom\.gradle\caches\transforms-3\20a2b3c4e40a9844151a9cce28d8f2ea\transformed\firebase-auth-21.2.0\AndroidManifest.xml:29:9-46:20
+70            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+70-->[com.google.firebase:firebase-auth:21.2.0] C:\Users\knjokom\.gradle\caches\transforms-3\20a2b3c4e40a9844151a9cce28d8f2ea\transformed\firebase-auth-21.2.0\AndroidManifest.xml:30:13-80
+71            android:excludeFromRecents="true"
+71-->[com.google.firebase:firebase-auth:21.2.0] C:\Users\knjokom\.gradle\caches\transforms-3\20a2b3c4e40a9844151a9cce28d8f2ea\transformed\firebase-auth-21.2.0\AndroidManifest.xml:31:13-46
+72            android:exported="true"
+72-->[com.google.firebase:firebase-auth:21.2.0] C:\Users\knjokom\.gradle\caches\transforms-3\20a2b3c4e40a9844151a9cce28d8f2ea\transformed\firebase-auth-21.2.0\AndroidManifest.xml:32:13-36
+73            android:launchMode="singleTask"
+73-->[com.google.firebase:firebase-auth:21.2.0] C:\Users\knjokom\.gradle\caches\transforms-3\20a2b3c4e40a9844151a9cce28d8f2ea\transformed\firebase-auth-21.2.0\AndroidManifest.xml:33:13-44
+74            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+74-->[com.google.firebase:firebase-auth:21.2.0] C:\Users\knjokom\.gradle\caches\transforms-3\20a2b3c4e40a9844151a9cce28d8f2ea\transformed\firebase-auth-21.2.0\AndroidManifest.xml:34:13-72
+75            <intent-filter>
+75-->[com.google.firebase:firebase-auth:21.2.0] C:\Users\knjokom\.gradle\caches\transforms-3\20a2b3c4e40a9844151a9cce28d8f2ea\transformed\firebase-auth-21.2.0\AndroidManifest.xml:35:13-45:29
+76                <action android:name="android.intent.action.VIEW" />
+76-->[com.google.firebase:firebase-auth:21.2.0] C:\Users\knjokom\.gradle\caches\transforms-3\20a2b3c4e40a9844151a9cce28d8f2ea\transformed\firebase-auth-21.2.0\AndroidManifest.xml:36:17-69
+76-->[com.google.firebase:firebase-auth:21.2.0] C:\Users\knjokom\.gradle\caches\transforms-3\20a2b3c4e40a9844151a9cce28d8f2ea\transformed\firebase-auth-21.2.0\AndroidManifest.xml:36:25-66
+77
+78                <category android:name="android.intent.category.DEFAULT" />
+78-->[com.google.firebase:firebase-auth:21.2.0] C:\Users\knjokom\.gradle\caches\transforms-3\20a2b3c4e40a9844151a9cce28d8f2ea\transformed\firebase-auth-21.2.0\AndroidManifest.xml:38:17-76
+78-->[com.google.firebase:firebase-auth:21.2.0] C:\Users\knjokom\.gradle\caches\transforms-3\20a2b3c4e40a9844151a9cce28d8f2ea\transformed\firebase-auth-21.2.0\AndroidManifest.xml:38:27-73
+79                <category android:name="android.intent.category.BROWSABLE" />
+79-->[com.google.firebase:firebase-auth:21.2.0] C:\Users\knjokom\.gradle\caches\transforms-3\20a2b3c4e40a9844151a9cce28d8f2ea\transformed\firebase-auth-21.2.0\AndroidManifest.xml:39:17-78
+79-->[com.google.firebase:firebase-auth:21.2.0] C:\Users\knjokom\.gradle\caches\transforms-3\20a2b3c4e40a9844151a9cce28d8f2ea\transformed\firebase-auth-21.2.0\AndroidManifest.xml:39:27-75
+80
+81                <data
+81-->[com.google.firebase:firebase-auth:21.2.0] C:\Users\knjokom\.gradle\caches\transforms-3\20a2b3c4e40a9844151a9cce28d8f2ea\transformed\firebase-auth-21.2.0\AndroidManifest.xml:41:17-44:51
+82                    android:host="firebase.auth"
+82-->[com.google.firebase:firebase-auth:21.2.0] C:\Users\knjokom\.gradle\caches\transforms-3\20a2b3c4e40a9844151a9cce28d8f2ea\transformed\firebase-auth-21.2.0\AndroidManifest.xml:42:21-49
+83                    android:path="/"
+83-->[com.google.firebase:firebase-auth:21.2.0] C:\Users\knjokom\.gradle\caches\transforms-3\20a2b3c4e40a9844151a9cce28d8f2ea\transformed\firebase-auth-21.2.0\AndroidManifest.xml:43:21-37
+84                    android:scheme="genericidp" />
+84-->[com.google.firebase:firebase-auth:21.2.0] C:\Users\knjokom\.gradle\caches\transforms-3\20a2b3c4e40a9844151a9cce28d8f2ea\transformed\firebase-auth-21.2.0\AndroidManifest.xml:44:21-48
+85            </intent-filter>
+86        </activity>
+87        <activity
+87-->[com.google.firebase:firebase-auth:21.2.0] C:\Users\knjokom\.gradle\caches\transforms-3\20a2b3c4e40a9844151a9cce28d8f2ea\transformed\firebase-auth-21.2.0\AndroidManifest.xml:47:9-64:20
+88            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+88-->[com.google.firebase:firebase-auth:21.2.0] C:\Users\knjokom\.gradle\caches\transforms-3\20a2b3c4e40a9844151a9cce28d8f2ea\transformed\firebase-auth-21.2.0\AndroidManifest.xml:48:13-79
+89            android:excludeFromRecents="true"
+89-->[com.google.firebase:firebase-auth:21.2.0] C:\Users\knjokom\.gradle\caches\transforms-3\20a2b3c4e40a9844151a9cce28d8f2ea\transformed\firebase-auth-21.2.0\AndroidManifest.xml:49:13-46
+90            android:exported="true"
+90-->[com.google.firebase:firebase-auth:21.2.0] C:\Users\knjokom\.gradle\caches\transforms-3\20a2b3c4e40a9844151a9cce28d8f2ea\transformed\firebase-auth-21.2.0\AndroidManifest.xml:50:13-36
+91            android:launchMode="singleTask"
+91-->[com.google.firebase:firebase-auth:21.2.0] C:\Users\knjokom\.gradle\caches\transforms-3\20a2b3c4e40a9844151a9cce28d8f2ea\transformed\firebase-auth-21.2.0\AndroidManifest.xml:51:13-44
+92            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+92-->[com.google.firebase:firebase-auth:21.2.0] C:\Users\knjokom\.gradle\caches\transforms-3\20a2b3c4e40a9844151a9cce28d8f2ea\transformed\firebase-auth-21.2.0\AndroidManifest.xml:52:13-72
+93            <intent-filter>
+93-->[com.google.firebase:firebase-auth:21.2.0] C:\Users\knjokom\.gradle\caches\transforms-3\20a2b3c4e40a9844151a9cce28d8f2ea\transformed\firebase-auth-21.2.0\AndroidManifest.xml:53:13-63:29
+94                <action android:name="android.intent.action.VIEW" />
+94-->[com.google.firebase:firebase-auth:21.2.0] C:\Users\knjokom\.gradle\caches\transforms-3\20a2b3c4e40a9844151a9cce28d8f2ea\transformed\firebase-auth-21.2.0\AndroidManifest.xml:36:17-69
+94-->[com.google.firebase:firebase-auth:21.2.0] C:\Users\knjokom\.gradle\caches\transforms-3\20a2b3c4e40a9844151a9cce28d8f2ea\transformed\firebase-auth-21.2.0\AndroidManifest.xml:36:25-66
+95
+96                <category android:name="android.intent.category.DEFAULT" />
+96-->[com.google.firebase:firebase-auth:21.2.0] C:\Users\knjokom\.gradle\caches\transforms-3\20a2b3c4e40a9844151a9cce28d8f2ea\transformed\firebase-auth-21.2.0\AndroidManifest.xml:38:17-76
+96-->[com.google.firebase:firebase-auth:21.2.0] C:\Users\knjokom\.gradle\caches\transforms-3\20a2b3c4e40a9844151a9cce28d8f2ea\transformed\firebase-auth-21.2.0\AndroidManifest.xml:38:27-73
+97                <category android:name="android.intent.category.BROWSABLE" />
+97-->[com.google.firebase:firebase-auth:21.2.0] C:\Users\knjokom\.gradle\caches\transforms-3\20a2b3c4e40a9844151a9cce28d8f2ea\transformed\firebase-auth-21.2.0\AndroidManifest.xml:39:17-78
+97-->[com.google.firebase:firebase-auth:21.2.0] C:\Users\knjokom\.gradle\caches\transforms-3\20a2b3c4e40a9844151a9cce28d8f2ea\transformed\firebase-auth-21.2.0\AndroidManifest.xml:39:27-75
+98
+99                <data
+99-->[com.google.firebase:firebase-auth:21.2.0] C:\Users\knjokom\.gradle\caches\transforms-3\20a2b3c4e40a9844151a9cce28d8f2ea\transformed\firebase-auth-21.2.0\AndroidManifest.xml:41:17-44:51
+100                    android:host="firebase.auth"
+100-->[com.google.firebase:firebase-auth:21.2.0] C:\Users\knjokom\.gradle\caches\transforms-3\20a2b3c4e40a9844151a9cce28d8f2ea\transformed\firebase-auth-21.2.0\AndroidManifest.xml:42:21-49
+101                    android:path="/"
+101-->[com.google.firebase:firebase-auth:21.2.0] C:\Users\knjokom\.gradle\caches\transforms-3\20a2b3c4e40a9844151a9cce28d8f2ea\transformed\firebase-auth-21.2.0\AndroidManifest.xml:43:21-37
+102                    android:scheme="recaptcha" />
+102-->[com.google.firebase:firebase-auth:21.2.0] C:\Users\knjokom\.gradle\caches\transforms-3\20a2b3c4e40a9844151a9cce28d8f2ea\transformed\firebase-auth-21.2.0\AndroidManifest.xml:44:21-48
+103            </intent-filter>
+104        </activity>
+105        <activity
+105-->[com.google.android.gms:play-services-auth:20.4.0] C:\Users\knjokom\.gradle\caches\transforms-3\a61f376e32bd92345129fec7fe130d03\transformed\play-services-auth-20.4.0\AndroidManifest.xml:23:9-27:75
+106            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+106-->[com.google.android.gms:play-services-auth:20.4.0] C:\Users\knjokom\.gradle\caches\transforms-3\a61f376e32bd92345129fec7fe130d03\transformed\play-services-auth-20.4.0\AndroidManifest.xml:24:13-93
+107            android:excludeFromRecents="true"
+107-->[com.google.android.gms:play-services-auth:20.4.0] C:\Users\knjokom\.gradle\caches\transforms-3\a61f376e32bd92345129fec7fe130d03\transformed\play-services-auth-20.4.0\AndroidManifest.xml:25:13-46
+108            android:exported="false"
+108-->[com.google.android.gms:play-services-auth:20.4.0] C:\Users\knjokom\.gradle\caches\transforms-3\a61f376e32bd92345129fec7fe130d03\transformed\play-services-auth-20.4.0\AndroidManifest.xml:26:13-37
+109            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+109-->[com.google.android.gms:play-services-auth:20.4.0] C:\Users\knjokom\.gradle\caches\transforms-3\a61f376e32bd92345129fec7fe130d03\transformed\play-services-auth-20.4.0\AndroidManifest.xml:27:13-72
+110        <!--
+111            Service handling Google Sign-In user revocation. For apps that do not integrate with
+112            Google Sign-In, this service will never be started.
+113        -->
+114        <service
+114-->[com.google.android.gms:play-services-auth:20.4.0] C:\Users\knjokom\.gradle\caches\transforms-3\a61f376e32bd92345129fec7fe130d03\transformed\play-services-auth-20.4.0\AndroidManifest.xml:33:9-37:51
+115            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+115-->[com.google.android.gms:play-services-auth:20.4.0] C:\Users\knjokom\.gradle\caches\transforms-3\a61f376e32bd92345129fec7fe130d03\transformed\play-services-auth-20.4.0\AndroidManifest.xml:34:13-89
+116            android:exported="true"
+116-->[com.google.android.gms:play-services-auth:20.4.0] C:\Users\knjokom\.gradle\caches\transforms-3\a61f376e32bd92345129fec7fe130d03\transformed\play-services-auth-20.4.0\AndroidManifest.xml:35:13-36
+117            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+117-->[com.google.android.gms:play-services-auth:20.4.0] C:\Users\knjokom\.gradle\caches\transforms-3\a61f376e32bd92345129fec7fe130d03\transformed\play-services-auth-20.4.0\AndroidManifest.xml:36:13-107
+118            android:visibleToInstantApps="true" />
+118-->[com.google.android.gms:play-services-auth:20.4.0] C:\Users\knjokom\.gradle\caches\transforms-3\a61f376e32bd92345129fec7fe130d03\transformed\play-services-auth-20.4.0\AndroidManifest.xml:37:13-48
+119
+120        <activity
+120-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\knjokom\.gradle\caches\transforms-3\65a3e06dfce242ebeea7fbc6fcf9e6a9\transformed\play-services-base-18.0.1\AndroidManifest.xml:20:9-22:45
+121            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+121-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\knjokom\.gradle\caches\transforms-3\65a3e06dfce242ebeea7fbc6fcf9e6a9\transformed\play-services-base-18.0.1\AndroidManifest.xml:20:19-85
+122            android:exported="false"
+122-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\knjokom\.gradle\caches\transforms-3\65a3e06dfce242ebeea7fbc6fcf9e6a9\transformed\play-services-base-18.0.1\AndroidManifest.xml:22:19-43
+123            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+123-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\knjokom\.gradle\caches\transforms-3\65a3e06dfce242ebeea7fbc6fcf9e6a9\transformed\play-services-base-18.0.1\AndroidManifest.xml:21:19-78
+124
+125        <provider
+125-->[com.google.firebase:firebase-common:20.2.0] C:\Users\knjokom\.gradle\caches\transforms-3\3b0fe9a5e8901b29e1e986071e3e85a9\transformed\firebase-common-20.2.0\AndroidManifest.xml:25:9-30:39
+126            android:name="com.google.firebase.provider.FirebaseInitProvider"
+126-->[com.google.firebase:firebase-common:20.2.0] C:\Users\knjokom\.gradle\caches\transforms-3\3b0fe9a5e8901b29e1e986071e3e85a9\transformed\firebase-common-20.2.0\AndroidManifest.xml:26:13-77
+127            android:authorities="com.example.hopen.firebaseinitprovider"
+127-->[com.google.firebase:firebase-common:20.2.0] C:\Users\knjokom\.gradle\caches\transforms-3\3b0fe9a5e8901b29e1e986071e3e85a9\transformed\firebase-common-20.2.0\AndroidManifest.xml:27:13-72
+128            android:directBootAware="true"
+128-->[com.google.firebase:firebase-common:20.2.0] C:\Users\knjokom\.gradle\caches\transforms-3\3b0fe9a5e8901b29e1e986071e3e85a9\transformed\firebase-common-20.2.0\AndroidManifest.xml:28:13-43
+129            android:exported="false"
+129-->[com.google.firebase:firebase-common:20.2.0] C:\Users\knjokom\.gradle\caches\transforms-3\3b0fe9a5e8901b29e1e986071e3e85a9\transformed\firebase-common-20.2.0\AndroidManifest.xml:29:13-37
+130            android:initOrder="100" />
+130-->[com.google.firebase:firebase-common:20.2.0] C:\Users\knjokom\.gradle\caches\transforms-3\3b0fe9a5e8901b29e1e986071e3e85a9\transformed\firebase-common-20.2.0\AndroidManifest.xml:30:13-36
+131
+132        <meta-data
+132-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\knjokom\.gradle\caches\transforms-3\db0cd8fead10bab7e6e0805b53089afb\transformed\play-services-basement-18.1.0\AndroidManifest.xml:21:9-23:69
+133            android:name="com.google.android.gms.version"
+133-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\knjokom\.gradle\caches\transforms-3\db0cd8fead10bab7e6e0805b53089afb\transformed\play-services-basement-18.1.0\AndroidManifest.xml:22:13-58
+134            android:value="@integer/google_play_services_version" />
+134-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\knjokom\.gradle\caches\transforms-3\db0cd8fead10bab7e6e0805b53089afb\transformed\play-services-basement-18.1.0\AndroidManifest.xml:23:13-66
+135
+136        <provider
+136-->[androidx.emoji2:emoji2:1.2.0] C:\Users\knjokom\.gradle\caches\transforms-3\82574603a07b5df1af0b1dca5d0f38d9\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+137            android:name="androidx.startup.InitializationProvider"
+137-->[androidx.emoji2:emoji2:1.2.0] C:\Users\knjokom\.gradle\caches\transforms-3\82574603a07b5df1af0b1dca5d0f38d9\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+138            android:authorities="com.example.hopen.androidx-startup"
+138-->[androidx.emoji2:emoji2:1.2.0] C:\Users\knjokom\.gradle\caches\transforms-3\82574603a07b5df1af0b1dca5d0f38d9\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+139            android:exported="false" >
+139-->[androidx.emoji2:emoji2:1.2.0] C:\Users\knjokom\.gradle\caches\transforms-3\82574603a07b5df1af0b1dca5d0f38d9\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+140            <meta-data
+140-->[androidx.emoji2:emoji2:1.2.0] C:\Users\knjokom\.gradle\caches\transforms-3\82574603a07b5df1af0b1dca5d0f38d9\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+141                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+141-->[androidx.emoji2:emoji2:1.2.0] C:\Users\knjokom\.gradle\caches\transforms-3\82574603a07b5df1af0b1dca5d0f38d9\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+142                android:value="androidx.startup" />
+142-->[androidx.emoji2:emoji2:1.2.0] C:\Users\knjokom\.gradle\caches\transforms-3\82574603a07b5df1af0b1dca5d0f38d9\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+143            <meta-data
+143-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\knjokom\.gradle\caches\transforms-3\35fdca1f858a436aa79efa1afa2513b7\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+144                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+144-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\knjokom\.gradle\caches\transforms-3\35fdca1f858a436aa79efa1afa2513b7\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+145                android:value="androidx.startup" />
+145-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\knjokom\.gradle\caches\transforms-3\35fdca1f858a436aa79efa1afa2513b7\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+146        </provider>
+147    </application>
+148
+149</manifest>

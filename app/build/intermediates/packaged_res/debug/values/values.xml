@@ -17,8 +17,20 @@
     <string name="affirmation7">New opportunities await me at every turn.</string>
     <string name="affirmation8">I have the courage to follow my heart.</string>
     <string name="affirmation9">Things will unfold at precisely the right time.</string>
+    <string name="already_have_an_account">Already have an account?</string>
     <string name="app_name">Hopen</string>
+    <string name="continue_with_google">Continue with google</string>
+    <string name="create_an_account">create an account</string>
+    <string name="default_web_client_id" translatable="false">964499448539-gktnqcnrbv393nsdqufhai901i3j805b.apps.googleusercontent.com</string>
+    <string name="email_address">Email Address</string>
+    <string name="gcm_defaultSenderId" translatable="false">964499448539</string>
+    <string name="google_api_key" translatable="false">AIzaSyAdoaCeDn-vk6KBd7wE_WG388QITkWlCWY</string>
+    <string name="google_app_id" translatable="false">1:964499448539:android:6be1ae8aa675056d8c62fe</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyAdoaCeDn-vk6KBd7wE_WG388QITkWlCWY</string>
+    <string name="google_storage_bucket" translatable="false">hopen-f6b75.appspot.com</string>
     <string name="hi">Hi</string>
+    <string name="password"> Password</string>
+    <string name="project_id" translatable="false">hopen-f6b75</string>
     <style name="Theme.Hopen" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
         
         <item name="colorPrimary">@color/purple_500</item>

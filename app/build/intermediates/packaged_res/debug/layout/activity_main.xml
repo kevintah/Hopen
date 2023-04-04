@@ -14,6 +14,11 @@
         android:layout_width="364dp"
         android:layout_height="358dp"
         android:text="@string/hi" />
+    <com.google.android.gms.common.SignInButton
+        android:id="@+id/google_sign_in"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </com.google.android.gms.common.SignInButton>
 
     <Button
         android:id="@+id/btnStartAnotherActivity"
