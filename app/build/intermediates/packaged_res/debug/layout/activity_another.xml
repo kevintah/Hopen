@@ -12,7 +12,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:padding="20sp"
-        android:text="free and open data"
+        android:text="Peek a user's status"
         android:textSize="25sp" />
 
     <TextView

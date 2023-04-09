@@ -24,7 +24,7 @@
     <string name="default_web_client_id" translatable="false">964499448539-gktnqcnrbv393nsdqufhai901i3j805b.apps.googleusercontent.com</string>
     <string name="element_text"/>
     <string name="email_address">Email Address</string>
-    <string name="enter_name">Enter Name</string>
+    <string name="enter_name">enter user you wish to peek</string>
     <string name="gcm_defaultSenderId" translatable="false">964499448539</string>
     <string name="google_api_key" translatable="false">AIzaSyAdoaCeDn-vk6KBd7wE_WG388QITkWlCWY</string>
     <string name="google_app_id" translatable="false">1:964499448539:android:6be1ae8aa675056d8c62fe</string>
