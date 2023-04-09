@@ -3341,6 +3341,7 @@ id uniform
 id unlabeled
 id up
 id useLogo
+id user
 id vertical_only
 id view_offset_helper
 id view_transition
@@ -3628,6 +3629,7 @@ string create_an_account
 string default_web_client_id
 string element_text
 string email_address
+string enter_name
 string error_a11y_label
 string error_icon_content_description
 string exposed_dropdown_menu_content_description

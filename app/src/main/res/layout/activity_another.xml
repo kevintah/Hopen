@@ -8,23 +8,38 @@
     tools:context=".AnotherActivity">
 
     <TextView
-        android:text="free and open data"
         android:id="@+id/openview"
-        android:textSize="25sp"
-        android:padding="20sp"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:padding="20sp"
+        android:text="free and open data"
+        android:textSize="25sp" />
+
     <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/element_text"/>
 
-    <Button
-        android:id="@+id/blow"
+    <EditText
+        android:id="@+id/user"
+        android:layout_width="262dp"
+        android:layout_height="133dp"
+        android:text=""
+        android:hint="@string/enter_name"
+
+        />
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Load" />
+        android:layout_height="match_parent" >
+
+        <Button
+            android:id="@+id/blow"
+            android:layout_width="match_parent"
+            android:layout_height="265dp"
+            android:text="Peek" />
+    </com.google.android.material.bottomnavigation.BottomNavigationView>
 
 
 </LinearLayout>

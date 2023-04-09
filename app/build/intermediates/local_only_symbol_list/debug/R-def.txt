@@ -19,6 +19,7 @@ id sendReport
 id textView
 id text_display_name
 id textview
+id user
 layout activity_another
 layout activity_google_sign_in
 layout activity_main
@@ -41,6 +42,7 @@ string create_an_account
 string default_web_client_id
 string element_text
 string email_address
+string enter_name
 string gcm_defaultSenderId
 string google_api_key
 string google_app_id

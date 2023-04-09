@@ -47,7 +47,11 @@ class AnotherActivity : AppCompatActivity() {
   fun blow() {
         val url2 = "https://hopen-f6b75-default-rtdb.firebaseio.com/"
         val database2 = FirebaseDatabase.getInstance(url2)
-        val Ref2 = database2.getReference("report")
+
+        var usertoget: EditText = findViewById(R.id.user)
+        var thetext = usertoget.text
+        val Ref2 = database2.getReference(thetext.toString())
+
 
         // Read from the database
 

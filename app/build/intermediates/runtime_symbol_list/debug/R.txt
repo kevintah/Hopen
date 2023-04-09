@@ -3340,6 +3340,7 @@ int id uniform 0x7f0801e7
 int id unlabeled 0x7f0801e8
 int id up 0x7f0801e9
 int id useLogo 0x7f0801ea
+int id user 0x7f080202
 int id vertical_only 0x7f0801eb
 int id view_offset_helper 0x7f0801ec
 int id view_transition 0x7f0801ed
@@ -3627,6 +3628,7 @@ int string create_an_account 0x7f100047
 int string default_web_client_id 0x7f100048
 int string element_text 0x7f1000c9
 int string email_address 0x7f100049
+int string enter_name 0x7f1000ca
 int string error_a11y_label 0x7f10004a
 int string error_icon_content_description 0x7f10004b
 int string exposed_dropdown_menu_content_description 0x7f10004c
