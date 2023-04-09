@@ -13,7 +13,13 @@
  
  -- Added bottom navigation
  
- -- Going to try to make it beautiful
+![alt text](https://raw.githubusercontent.com/kevintah/Hopen/main/App_images/Img1.png)
+![alt text](https://raw.githubusercontent.com/kevintah/Hopen/main/App_images/Img2.png)
+![alt text](https://raw.githubusercontent.com/kevintah/Hopen/main/App_images/Img3.png)
+![alt text](https://raw.githubusercontent.com/kevintah/Hopen/main/App_images/Img4.png)
+
+ 
+ -- Going to try to make it beautiful later
  
  Slinging Hardcore!
  
