@@ -1,16 +1,18 @@
-# Hopen
-The goal is to create a multi activity android app in Kotlin
+# Hopen    (Signed Report Logging Android Application)
 
 
- -- Integrate with Firebase
+ -- Integrated with Firebase authentication
+ 
+ -- Integrated with Firebase realtime database
+ 
+ -- Hase multiple activities, using intents
+ 
+ -- Used binding
+ 
+ Slinging Hardcore!
  
  
- -- Use Jetpack compose
- 
- 
- -- Multiple activities
  
  
 
----- Partly motivated and very slightly based on tutorials about Kotlin by Google ---- My code is different
  
