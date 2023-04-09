@@ -62,7 +62,7 @@ class GoogleSignInActivity : AppCompatActivity() {
         string = editText.text.toString()
         val url = "https://hopen-f6b75-default-rtdb.firebaseio.com/"
         val database = FirebaseDatabase.getInstance(url)
-        val myRef = database.getReference("name")
+        val myRef = database.getReference(name.toString())
         myRef.setValue(string)
 
 
