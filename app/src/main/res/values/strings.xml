@@ -18,4 +18,5 @@
     <string name="continue_with_google">Continue with google</string>
     <string name="already_have_an_account">Already have an account?</string>
     <string name="open_data">Open Data</string>
+    <string name="element_text" />
 </resources>

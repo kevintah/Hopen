@@ -9,11 +9,14 @@ color teal_700
 color white
 drawable ic_launcher_background
 drawable ic_launcher_foreground
+id blow
 id btnStartAnotherActivity
 id editText
 id google_sign_in
 id logout
+id openview
 id sendReport
+id textView
 id text_display_name
 id textview
 layout activity_another
@@ -36,6 +39,7 @@ string app_name
 string continue_with_google
 string create_an_account
 string default_web_client_id
+string element_text
 string email_address
 string gcm_defaultSenderId
 string google_api_key

@@ -56,6 +56,7 @@ class GoogleSignInActivity : AppCompatActivity() {
 
     private fun sendReport() {
 
+
         var string: String = binding.editText.toString()
         var editText: EditText = findViewById(R.id.editText)
         var name = intent.getStringExtra(EXTRA_NAME)

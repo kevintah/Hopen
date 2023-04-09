@@ -2941,6 +2941,7 @@ int id beginOnFirstDraw 0x7f08005b
 int id beginning 0x7f08005c
 int id bestChoice 0x7f08005d
 int id blocking 0x7f08005e
+int id blow 0x7f080200
 int id bottom 0x7f08005f
 int id bounce 0x7f080060
 int id bounceBoth 0x7f080061
@@ -3178,6 +3179,7 @@ int id notification_main_column_container 0x7f080148
 int id off 0x7f080149
 int id on 0x7f08014a
 int id onInterceptTouchReturnSwipe 0x7f08014b
+int id openview 0x7f080201
 int id outline 0x7f08014c
 int id outward 0x7f08014d
 int id overshoot 0x7f08014e
@@ -3305,6 +3307,7 @@ int id textSpacerNoButtons 0x7f0801c7
 int id textSpacerNoTitle 0x7f0801c8
 int id textStart 0x7f0801c9
 int id textTop 0x7f0801ca
+int id textView 0x7f0801ff
 int id text_display_name 0x7f0801cb
 int id text_input_end_icon 0x7f0801cc
 int id text_input_error_icon 0x7f0801cd
@@ -3622,6 +3625,7 @@ int string continue_with_google 0x7f100045
 int string copy_toast_msg 0x7f100046
 int string create_an_account 0x7f100047
 int string default_web_client_id 0x7f100048
+int string element_text 0x7f1000c9
 int string email_address 0x7f100049
 int string error_a11y_label 0x7f10004a
 int string error_icon_content_description 0x7f10004b

@@ -2942,6 +2942,7 @@ id beginOnFirstDraw
 id beginning
 id bestChoice
 id blocking
+id blow
 id bottom
 id bounce
 id bounceBoth
@@ -3179,6 +3180,7 @@ id notification_main_column_container
 id off
 id on
 id onInterceptTouchReturnSwipe
+id openview
 id outline
 id outward
 id overshoot
@@ -3306,6 +3308,7 @@ id textSpacerNoButtons
 id textSpacerNoTitle
 id textStart
 id textTop
+id textView
 id text_display_name
 id text_input_end_icon
 id text_input_error_icon
@@ -3623,6 +3626,7 @@ string continue_with_google
 string copy_toast_msg
 string create_an_account
 string default_web_client_id
+string element_text
 string email_address
 string error_a11y_label
 string error_icon_content_description
