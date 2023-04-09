@@ -8,7 +8,7 @@ import androidx.appcompat.app.AppCompatActivity
 import com.google.firebase.database.FirebaseDatabase
 import com.google.firebase.database.ValueEventListener
 import now.example.hopen.MainActivity.Companion.EXTRA_NAME
-import com.example.hopen.databinding.ActivityGoogleSignInBinding
+import now.example.hopen.databinding.ActivityGoogleSignInBinding
 import com.google.firebase.auth.ktx.auth
 import com.google.firebase.database.DataSnapshot
 import com.google.firebase.database.DatabaseError
@@ -17,10 +17,10 @@ import com.google.firebase.ktx.Firebase
 import android.content.Intent
 import android.widget.Button
 import android.widget.TextView
-import com.example.hopen.R
+import now.example.hopen.R
 import now.example.hopen.MainActivity.Companion.EXTRA_NAME
-import com.example.hopen.R.id.blow
-import com.example.hopen.databinding.ActivityAnotherBinding
+import now.example.hopen.R.id.blow
+import now.example.hopen.databinding.ActivityAnotherBinding
 import com.google.firebase.auth.ktx.auth
 
 class AnotherActivity : AppCompatActivity() {

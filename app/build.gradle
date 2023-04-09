@@ -5,11 +5,11 @@ plugins {
 }
 
 android {
-    namespace 'com.example.hopen'
+    namespace 'now.example.hopen'
     compileSdk 33
 
     defaultConfig {
-        applicationId "com.example.hopen"
+        applicationId "now.example.hopen"
         minSdk 24
         targetSdk 33
         versionCode 1

@@ -4,7 +4,7 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import now.example.hopen.MainActivity.Companion.EXTRA_NAME
-import com.example.hopen.databinding.ActivityGoogleSignInBinding
+import now.example.hopen.databinding.ActivityGoogleSignInBinding
 import com.google.firebase.auth.ktx.auth
 import com.google.firebase.database.FirebaseDatabase
 import com.google.firebase.ktx.Firebase
@@ -14,8 +14,8 @@ import android.content.ContentValues.TAG
 
 import android.util.Log
 import android.widget.Button
-import com.example.hopen.R
-import com.example.hopen.databinding.ActivityMainBinding
+import now.example.hopen.R
+import now.example.hopen.databinding.ActivityMainBinding
 import com.google.android.gms.auth.api.signin.GoogleSignIn
 import com.google.android.gms.auth.api.signin.GoogleSignInClient
 import com.google.android.gms.auth.api.signin.GoogleSignInOptions

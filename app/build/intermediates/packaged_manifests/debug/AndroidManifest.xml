@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.hopen"
+    package="now.example.hopen"
     android:versionCode="1"
     android:versionName="1.0" >
 
@@ -12,10 +12,10 @@
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 
     <permission
-        android:name="com.example.hopen.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+        android:name="now.example.hopen.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
         android:protectionLevel="signature" />
 
-    <uses-permission android:name="com.example.hopen.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+    <uses-permission android:name="now.example.hopen.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
 
     <application
         android:allowBackup="true"
@@ -33,7 +33,7 @@
             android:name="now.example.hopen.GoogleSignInActivity"
             android:exported="false" />
         <activity
-            android:name="com.example.hopen.YouSignedIn"
+            android:name="now.example.hopen.YouSignedIn"
             android:exported="false" /> <!-- below is the code for default activity which is Main Activity -->
         <activity
             android:name="now.example.hopen.MainActivity"
@@ -130,7 +130,7 @@
 
         <provider
             android:name="com.google.firebase.provider.FirebaseInitProvider"
-            android:authorities="com.example.hopen.firebaseinitprovider"
+            android:authorities="now.example.hopen.firebaseinitprovider"
             android:directBootAware="true"
             android:exported="false"
             android:initOrder="100" />
@@ -141,7 +141,7 @@
 
         <provider
             android:name="androidx.startup.InitializationProvider"
-            android:authorities="com.example.hopen.androidx-startup"
+            android:authorities="now.example.hopen.androidx-startup"
             android:exported="false" >
             <meta-data
                 android:name="androidx.emoji2.text.EmojiCompatInitializer"

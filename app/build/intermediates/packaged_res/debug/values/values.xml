@@ -25,9 +25,10 @@
     <string name="element_text"/>
     <string name="email_address">Email Address</string>
     <string name="enter_name">enter user you wish to peek</string>
+    <string name="firebase_database_url" translatable="false">https://hopen-f6b75-default-rtdb.firebaseio.com</string>
     <string name="gcm_defaultSenderId" translatable="false">964499448539</string>
     <string name="google_api_key" translatable="false">AIzaSyAdoaCeDn-vk6KBd7wE_WG388QITkWlCWY</string>
-    <string name="google_app_id" translatable="false">1:964499448539:android:6be1ae8aa675056d8c62fe</string>
+    <string name="google_app_id" translatable="false">1:964499448539:android:d76ab0225d6dbae88c62fe</string>
     <string name="google_crash_reporting_api_key" translatable="false">AIzaSyAdoaCeDn-vk6KBd7wE_WG388QITkWlCWY</string>
     <string name="google_storage_bucket" translatable="false">hopen-f6b75.appspot.com</string>
     <string name="open_data">Open Data</string>

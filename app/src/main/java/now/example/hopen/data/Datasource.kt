@@ -1,6 +1,6 @@
 package now.example.hopen.data
 
-import com.example.hopen.R
+import now.example.hopen.R
 import now.example.hopen.model.Affirmations
 
 class Datasource {

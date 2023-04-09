@@ -157,7 +157,7 @@ ADDED from C:\Users\knjokom\AndroidStudioProjects\Hopen2\app\src\main\AndroidMan
 		ADDED from C:\Users\knjokom\AndroidStudioProjects\Hopen2\app\src\main\AndroidManifest.xml:16:13-37
 	android:name
 		ADDED from C:\Users\knjokom\AndroidStudioProjects\Hopen2\app\src\main\AndroidManifest.xml:15:13-66
-activity#com.example.hopen.YouSignedIn
+activity#now.example.hopen.YouSignedIn
 ADDED from C:\Users\knjokom\AndroidStudioProjects\Hopen2\app\src\main\AndroidManifest.xml:17:9-19:40
 	android:exported
 		ADDED from C:\Users\knjokom\AndroidStudioProjects\Hopen2\app\src\main\AndroidManifest.xml:19:13-37
@@ -505,7 +505,7 @@ ADDED from [androidx.core:core:1.9.0] C:\Users\knjokom\.gradle\caches\transforms
 		ADDED from [androidx.core:core:1.9.0] C:\Users\knjokom\.gradle\caches\transforms-3\cdcdb1d1e4ef977e37138e7e99142a4b\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
 	android:name
 		ADDED from [androidx.core:core:1.9.0] C:\Users\knjokom\.gradle\caches\transforms-3\cdcdb1d1e4ef977e37138e7e99142a4b\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
-permission#com.example.hopen.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+permission#now.example.hopen.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
 ADDED from [androidx.core:core:1.9.0] C:\Users\knjokom\.gradle\caches\transforms-3\cdcdb1d1e4ef977e37138e7e99142a4b\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
 	android:protectionLevel
 		ADDED from [androidx.core:core:1.9.0] C:\Users\knjokom\.gradle\caches\transforms-3\cdcdb1d1e4ef977e37138e7e99142a4b\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
@@ -515,7 +515,7 @@ uses-permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
 ADDED from [androidx.core:core:1.9.0] C:\Users\knjokom\.gradle\caches\transforms-3\cdcdb1d1e4ef977e37138e7e99142a4b\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
 	android:name
 		ADDED from [androidx.core:core:1.9.0] C:\Users\knjokom\.gradle\caches\transforms-3\cdcdb1d1e4ef977e37138e7e99142a4b\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
-uses-permission#com.example.hopen.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+uses-permission#now.example.hopen.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
 ADDED from [androidx.core:core:1.9.0] C:\Users\knjokom\.gradle\caches\transforms-3\cdcdb1d1e4ef977e37138e7e99142a4b\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
 	android:name
 		ADDED from [androidx.core:core:1.9.0] C:\Users\knjokom\.gradle\caches\transforms-3\cdcdb1d1e4ef977e37138e7e99142a4b\transformed\core-1.9.0\AndroidManifest.xml:26:22-94

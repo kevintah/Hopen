@@ -1,6 +1,6 @@
 1<?xml version="1.0" encoding="utf-8"?>
 2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
-3    package="com.example.hopen"
+3    package="now.example.hopen"
 4    android:versionCode="1"
 5    android:versionName="1.0" >
 6
@@ -19,12 +19,12 @@
 13
 14    <permission
 14-->[androidx.core:core:1.9.0] C:\Users\knjokom\.gradle\caches\transforms-3\cdcdb1d1e4ef977e37138e7e99142a4b\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
-15        android:name="com.example.hopen.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+15        android:name="now.example.hopen.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
 15-->[androidx.core:core:1.9.0] C:\Users\knjokom\.gradle\caches\transforms-3\cdcdb1d1e4ef977e37138e7e99142a4b\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
 16        android:protectionLevel="signature" />
 16-->[androidx.core:core:1.9.0] C:\Users\knjokom\.gradle\caches\transforms-3\cdcdb1d1e4ef977e37138e7e99142a4b\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
 17
-18    <uses-permission android:name="com.example.hopen.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+18    <uses-permission android:name="now.example.hopen.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
 18-->[androidx.core:core:1.9.0] C:\Users\knjokom\.gradle\caches\transforms-3\cdcdb1d1e4ef977e37138e7e99142a4b\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
 18-->[androidx.core:core:1.9.0] C:\Users\knjokom\.gradle\caches\transforms-3\cdcdb1d1e4ef977e37138e7e99142a4b\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
 19
@@ -57,7 +57,7 @@
 34-->C:\Users\knjokom\AndroidStudioProjects\Hopen2\app\src\main\AndroidManifest.xml:16:13-37
 35        <activity
 35-->C:\Users\knjokom\AndroidStudioProjects\Hopen2\app\src\main\AndroidManifest.xml:17:9-19:40
-36            android:name="com.example.hopen.YouSignedIn"
+36            android:name="now.example.hopen.YouSignedIn"
 36-->C:\Users\knjokom\AndroidStudioProjects\Hopen2\app\src\main\AndroidManifest.xml:18:13-40
 37            android:exported="false" /> <!-- below is the code for default activity which is Main Activity -->
 37-->C:\Users\knjokom\AndroidStudioProjects\Hopen2\app\src\main\AndroidManifest.xml:19:13-37
@@ -235,7 +235,7 @@
 131-->[com.google.firebase:firebase-common:20.3.2] C:\Users\knjokom\.gradle\caches\transforms-3\5fb6a89ab4075500f71bbf39d3e8697f\transformed\firebase-common-20.3.2\AndroidManifest.xml:25:9-30:39
 132            android:name="com.google.firebase.provider.FirebaseInitProvider"
 132-->[com.google.firebase:firebase-common:20.3.2] C:\Users\knjokom\.gradle\caches\transforms-3\5fb6a89ab4075500f71bbf39d3e8697f\transformed\firebase-common-20.3.2\AndroidManifest.xml:26:13-77
-133            android:authorities="com.example.hopen.firebaseinitprovider"
+133            android:authorities="now.example.hopen.firebaseinitprovider"
 133-->[com.google.firebase:firebase-common:20.3.2] C:\Users\knjokom\.gradle\caches\transforms-3\5fb6a89ab4075500f71bbf39d3e8697f\transformed\firebase-common-20.3.2\AndroidManifest.xml:27:13-72
 134            android:directBootAware="true"
 134-->[com.google.firebase:firebase-common:20.3.2] C:\Users\knjokom\.gradle\caches\transforms-3\5fb6a89ab4075500f71bbf39d3e8697f\transformed\firebase-common-20.3.2\AndroidManifest.xml:28:13-43
@@ -255,7 +255,7 @@
 142-->[androidx.emoji2:emoji2:1.2.0] C:\Users\knjokom\.gradle\caches\transforms-3\82574603a07b5df1af0b1dca5d0f38d9\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
 143            android:name="androidx.startup.InitializationProvider"
 143-->[androidx.emoji2:emoji2:1.2.0] C:\Users\knjokom\.gradle\caches\transforms-3\82574603a07b5df1af0b1dca5d0f38d9\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
-144            android:authorities="com.example.hopen.androidx-startup"
+144            android:authorities="now.example.hopen.androidx-startup"
 144-->[androidx.emoji2:emoji2:1.2.0] C:\Users\knjokom\.gradle\caches\transforms-3\82574603a07b5df1af0b1dca5d0f38d9\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
 145            android:exported="false" >
 145-->[androidx.emoji2:emoji2:1.2.0] C:\Users\knjokom\.gradle\caches\transforms-3\82574603a07b5df1af0b1dca5d0f38d9\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37

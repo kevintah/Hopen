@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.hopen.app-mergeDebugResources-33:/values-v23/values-v23.xml",
+            "outputFile": "now.example.hopen.app-mergeDebugResources-33:/values-v23/values-v23.xml",
             "map": [
                 {
                     "source": "C:\\Users\\knjokom\\.gradle\\caches\\transforms-3\\e81e8596cccba82458e49b16a40ad0a3\\transformed\\material-1.8.0\\res\\values-v23\\values-v23.xml",

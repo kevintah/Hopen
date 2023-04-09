@@ -43,6 +43,7 @@ string default_web_client_id
 string element_text
 string email_address
 string enter_name
+string firebase_database_url
 string gcm_defaultSenderId
 string google_api_key
 string google_app_id
