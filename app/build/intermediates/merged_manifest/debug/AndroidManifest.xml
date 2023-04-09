@@ -30,13 +30,13 @@
         android:testOnly="true"
         android:theme="@style/Theme.Hopen" >
         <activity
-            android:name="com.example.hopen.GoogleSignInActivity"
+            android:name="now.example.hopen.GoogleSignInActivity"
             android:exported="false" />
         <activity
             android:name="com.example.hopen.YouSignedIn"
             android:exported="false" /> <!-- below is the code for default activity which is Main Activity -->
         <activity
-            android:name="com.example.hopen.MainActivity"
+            android:name="now.example.hopen.MainActivity"
             android:exported="true" >
 
             <!--
@@ -49,7 +49,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="com.example.hopen.AnotherActivity" />
+        <activity android:name="now.example.hopen.AnotherActivity" />
 
         <service
             android:name="com.google.firebase.components.ComponentDiscoveryService"

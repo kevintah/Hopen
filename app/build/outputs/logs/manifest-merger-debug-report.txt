@@ -151,24 +151,24 @@ MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\knjokom\.gradle\ca
 		ADDED from C:\Users\knjokom\AndroidStudioProjects\Hopen2\app\src\main\AndroidManifest.xml:12:9-43
 	android:dataExtractionRules
 		ADDED from C:\Users\knjokom\AndroidStudioProjects\Hopen2\app\src\main\AndroidManifest.xml:7:9-65
-activity#com.example.hopen.GoogleSignInActivity
+activity#now.example.hopen.GoogleSignInActivity
 ADDED from C:\Users\knjokom\AndroidStudioProjects\Hopen2\app\src\main\AndroidManifest.xml:14:9-16:40
 	android:exported
 		ADDED from C:\Users\knjokom\AndroidStudioProjects\Hopen2\app\src\main\AndroidManifest.xml:16:13-37
 	android:name
-		ADDED from C:\Users\knjokom\AndroidStudioProjects\Hopen2\app\src\main\AndroidManifest.xml:15:13-49
+		ADDED from C:\Users\knjokom\AndroidStudioProjects\Hopen2\app\src\main\AndroidManifest.xml:15:13-66
 activity#com.example.hopen.YouSignedIn
 ADDED from C:\Users\knjokom\AndroidStudioProjects\Hopen2\app\src\main\AndroidManifest.xml:17:9-19:40
 	android:exported
 		ADDED from C:\Users\knjokom\AndroidStudioProjects\Hopen2\app\src\main\AndroidManifest.xml:19:13-37
 	android:name
 		ADDED from C:\Users\knjokom\AndroidStudioProjects\Hopen2\app\src\main\AndroidManifest.xml:18:13-40
-activity#com.example.hopen.MainActivity
+activity#now.example.hopen.MainActivity
 ADDED from C:\Users\knjokom\AndroidStudioProjects\Hopen2\app\src\main\AndroidManifest.xml:20:9-33:20
 	android:exported
 		ADDED from C:\Users\knjokom\AndroidStudioProjects\Hopen2\app\src\main\AndroidManifest.xml:22:13-36
 	android:name
-		ADDED from C:\Users\knjokom\AndroidStudioProjects\Hopen2\app\src\main\AndroidManifest.xml:21:13-41
+		ADDED from C:\Users\knjokom\AndroidStudioProjects\Hopen2\app\src\main\AndroidManifest.xml:21:13-58
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
 ADDED from C:\Users\knjokom\AndroidStudioProjects\Hopen2\app\src\main\AndroidManifest.xml:28:13-32:29
 action#android.intent.action.MAIN
@@ -179,10 +179,10 @@ category#android.intent.category.LAUNCHER
 ADDED from C:\Users\knjokom\AndroidStudioProjects\Hopen2\app\src\main\AndroidManifest.xml:31:17-77
 	android:name
 		ADDED from C:\Users\knjokom\AndroidStudioProjects\Hopen2\app\src\main\AndroidManifest.xml:31:27-74
-activity#com.example.hopen.AnotherActivity
-ADDED from C:\Users\knjokom\AndroidStudioProjects\Hopen2\app\src\main\AndroidManifest.xml:34:9-53
+activity#now.example.hopen.AnotherActivity
+ADDED from C:\Users\knjokom\AndroidStudioProjects\Hopen2\app\src\main\AndroidManifest.xml:34:9-70
 	android:name
-		ADDED from C:\Users\knjokom\AndroidStudioProjects\Hopen2\app\src\main\AndroidManifest.xml:34:19-50
+		ADDED from C:\Users\knjokom\AndroidStudioProjects\Hopen2\app\src\main\AndroidManifest.xml:34:19-67
 uses-sdk
 INJECTED from C:\Users\knjokom\AndroidStudioProjects\Hopen2\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\knjokom\AndroidStudioProjects\Hopen2\app\src\main\AndroidManifest.xml

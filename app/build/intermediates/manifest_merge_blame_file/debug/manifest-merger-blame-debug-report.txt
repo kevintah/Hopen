@@ -51,8 +51,8 @@
 31-->C:\Users\knjokom\AndroidStudioProjects\Hopen2\app\src\main\AndroidManifest.xml:12:9-43
 32        <activity
 32-->C:\Users\knjokom\AndroidStudioProjects\Hopen2\app\src\main\AndroidManifest.xml:14:9-16:40
-33            android:name="com.example.hopen.GoogleSignInActivity"
-33-->C:\Users\knjokom\AndroidStudioProjects\Hopen2\app\src\main\AndroidManifest.xml:15:13-49
+33            android:name="now.example.hopen.GoogleSignInActivity"
+33-->C:\Users\knjokom\AndroidStudioProjects\Hopen2\app\src\main\AndroidManifest.xml:15:13-66
 34            android:exported="false" />
 34-->C:\Users\knjokom\AndroidStudioProjects\Hopen2\app\src\main\AndroidManifest.xml:16:13-37
 35        <activity
@@ -63,8 +63,8 @@
 37-->C:\Users\knjokom\AndroidStudioProjects\Hopen2\app\src\main\AndroidManifest.xml:19:13-37
 38        <activity
 38-->C:\Users\knjokom\AndroidStudioProjects\Hopen2\app\src\main\AndroidManifest.xml:20:9-33:20
-39            android:name="com.example.hopen.MainActivity"
-39-->C:\Users\knjokom\AndroidStudioProjects\Hopen2\app\src\main\AndroidManifest.xml:21:13-41
+39            android:name="now.example.hopen.MainActivity"
+39-->C:\Users\knjokom\AndroidStudioProjects\Hopen2\app\src\main\AndroidManifest.xml:21:13-58
 40            android:exported="true" >
 40-->C:\Users\knjokom\AndroidStudioProjects\Hopen2\app\src\main\AndroidManifest.xml:22:13-36
 41
@@ -83,9 +83,9 @@
 49-->C:\Users\knjokom\AndroidStudioProjects\Hopen2\app\src\main\AndroidManifest.xml:31:27-74
 50            </intent-filter>
 51        </activity>
-52        <activity android:name="com.example.hopen.AnotherActivity" />
-52-->C:\Users\knjokom\AndroidStudioProjects\Hopen2\app\src\main\AndroidManifest.xml:34:9-53
-52-->C:\Users\knjokom\AndroidStudioProjects\Hopen2\app\src\main\AndroidManifest.xml:34:19-50
+52        <activity android:name="now.example.hopen.AnotherActivity" />
+52-->C:\Users\knjokom\AndroidStudioProjects\Hopen2\app\src\main\AndroidManifest.xml:34:9-70
+52-->C:\Users\knjokom\AndroidStudioProjects\Hopen2\app\src\main\AndroidManifest.xml:34:19-67
 53
 54        <service
 54-->[com.google.firebase:firebase-auth-ktx:21.2.0] C:\Users\knjokom\.gradle\caches\transforms-3\f9868606cddf553833fe46d7e65fca6d\transformed\firebase-auth-ktx-21.2.0\AndroidManifest.xml:8:9-14:19
