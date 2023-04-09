@@ -11,10 +11,12 @@ import com.google.android.gms.auth.api.signin.GoogleSignIn
 import com.google.android.gms.auth.api.signin.GoogleSignInClient
 import com.google.android.gms.auth.api.signin.GoogleSignInOptions
 import com.google.android.gms.common.api.ApiException
+import com.google.firebase.FirebaseApp.getInstance
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.FirebaseUser
 import com.google.firebase.auth.GoogleAuthProvider
 import com.google.firebase.auth.ktx.auth
+import com.google.firebase.database.FirebaseDatabase
 import com.google.firebase.ktx.Firebase
 
 class MainActivity : AppCompatActivity() {
@@ -42,12 +44,15 @@ class MainActivity : AppCompatActivity() {
             signIn()
         }
 
+
         val btnStartAnotherActivity: Button = findViewById(R.id.btnStartAnotherActivity)
         btnStartAnotherActivity.setOnClickListener {
             val intent = Intent(this, AnotherActivity::class.java)
             // start your next activity
             startActivity(intent)
         }
+
+
     }
 
 

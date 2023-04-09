@@ -4,9 +4,9 @@ com.example.hopen.app-activity-1.6.0-2 C:\Users\knjokom\.gradle\caches\transform
 com.example.hopen.app-appcompat-1.6.1-3 C:\Users\knjokom\.gradle\caches\transforms-3\0f058cc9808a82e06217ed5b9b9badd9\transformed\appcompat-1.6.1\res
 com.example.hopen.app-lifecycle-runtime-2.5.1-4 C:\Users\knjokom\.gradle\caches\transforms-3\35106f6362d563ce2ff550a651525ef4\transformed\lifecycle-runtime-2.5.1\res
 com.example.hopen.app-lifecycle-process-2.4.1-5 C:\Users\knjokom\.gradle\caches\transforms-3\35fdca1f858a436aa79efa1afa2513b7\transformed\lifecycle-process-2.4.1\res
-com.example.hopen.app-firebase-common-20.2.0-6 C:\Users\knjokom\.gradle\caches\transforms-3\3b0fe9a5e8901b29e1e986071e3e85a9\transformed\firebase-common-20.2.0\res
-com.example.hopen.app-lifecycle-livedata-core-2.5.1-7 C:\Users\knjokom\.gradle\caches\transforms-3\3c5ce655525e616b7ed5f4e3fd544b01\transformed\lifecycle-livedata-core-2.5.1\res
-com.example.hopen.app-browser-1.4.0-8 C:\Users\knjokom\.gradle\caches\transforms-3\4591dbb6d2504f04b8bce8d8d62bbd0f\transformed\browser-1.4.0\res
+com.example.hopen.app-lifecycle-livedata-core-2.5.1-6 C:\Users\knjokom\.gradle\caches\transforms-3\3c5ce655525e616b7ed5f4e3fd544b01\transformed\lifecycle-livedata-core-2.5.1\res
+com.example.hopen.app-browser-1.4.0-7 C:\Users\knjokom\.gradle\caches\transforms-3\4591dbb6d2504f04b8bce8d8d62bbd0f\transformed\browser-1.4.0\res
+com.example.hopen.app-firebase-common-20.3.2-8 C:\Users\knjokom\.gradle\caches\transforms-3\5fb6a89ab4075500f71bbf39d3e8697f\transformed\firebase-common-20.3.2\res
 com.example.hopen.app-play-services-base-18.0.1-9 C:\Users\knjokom\.gradle\caches\transforms-3\65a3e06dfce242ebeea7fbc6fcf9e6a9\transformed\play-services-base-18.0.1\res
 com.example.hopen.app-savedstate-1.2.0-10 C:\Users\knjokom\.gradle\caches\transforms-3\7642455d3cb09c8606a1038d3490671a\transformed\savedstate-1.2.0\res
 com.example.hopen.app-recyclerview-1.1.0-11 C:\Users\knjokom\.gradle\caches\transforms-3\7e853130ac35f3155262d3d91c1bb632\transformed\recyclerview-1.1.0\res

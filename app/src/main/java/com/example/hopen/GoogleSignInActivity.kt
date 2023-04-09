@@ -6,7 +6,26 @@ import android.os.Bundle
 import com.example.hopen.MainActivity.Companion.EXTRA_NAME
 import com.example.hopen.databinding.ActivityGoogleSignInBinding
 import com.google.firebase.auth.ktx.auth
+import com.google.firebase.database.FirebaseDatabase
 import com.google.firebase.ktx.Firebase
+import android.widget.EditText
+
+import android.content.ContentValues.TAG
+
+import android.util.Log
+import android.widget.Button
+import com.example.hopen.databinding.ActivityMainBinding
+import com.google.android.gms.auth.api.signin.GoogleSignIn
+import com.google.android.gms.auth.api.signin.GoogleSignInClient
+import com.google.android.gms.auth.api.signin.GoogleSignInOptions
+import com.google.android.gms.common.api.ApiException
+import com.google.firebase.FirebaseApp.getInstance
+import com.google.firebase.auth.FirebaseAuth
+import com.google.firebase.auth.FirebaseUser
+import com.google.firebase.auth.GoogleAuthProvider
+import com.google.firebase.auth.ktx.auth
+
+
 
 class GoogleSignInActivity : AppCompatActivity() {
 
@@ -24,5 +43,29 @@ class GoogleSignInActivity : AppCompatActivity() {
             val intent = Intent(applicationContext, MainActivity::class.java)
             startActivity(intent)
         }
+
+
+
+
+        binding.sendReport.setOnClickListener {
+
+            sendReport()
+        }
+
+    }
+
+    private fun sendReport() {
+
+        var string: String = binding.editText.toString()
+        var editText: EditText = findViewById(R.id.editText)
+        var name = intent.getStringExtra(EXTRA_NAME)
+        string = editText.text.toString()
+        val url = "https://hopen-f6b75-default-rtdb.firebaseio.com/"
+        val database = FirebaseDatabase.getInstance(url)
+        val myRef = database.getReference("name")
+        myRef.setValue(string)
+
+
+
     }
 }

@@ -10,8 +10,10 @@ color white
 drawable ic_launcher_background
 drawable ic_launcher_foreground
 id btnStartAnotherActivity
+id editText
 id google_sign_in
 id logout
+id sendReport
 id text_display_name
 id textview
 layout activity_another
