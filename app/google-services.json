@@ -10,7 +10,7 @@
       "client_info": {
         "mobilesdk_app_id": "1:964499448539:android:6be1ae8aa675056d8c62fe",
         "android_client_info": {
-          "package_name": "com.example.hopen"
+          "package_name": "now.example.hopen"
         }
       },
       "oauth_client": [
@@ -18,7 +18,7 @@
           "client_id": "964499448539-8j4gcr8eudpm1e2vv3q8fcbntmu6nqsv.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
-            "package_name": "com.example.hopen",
+            "package_name": "now.example.hopen",
             "certificate_hash": "5b721039bdfdf6226c84e8a4dbb801a53775a9f4"
           }
         },
