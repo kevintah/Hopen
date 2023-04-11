@@ -6,8 +6,8 @@ now.example.hopen.app-lifecycle-runtime-2.5.1-4 C:\Users\knjokom\.gradle\caches\
 now.example.hopen.app-lifecycle-process-2.4.1-5 C:\Users\knjokom\.gradle\caches\transforms-3\35fdca1f858a436aa79efa1afa2513b7\transformed\lifecycle-process-2.4.1\res
 now.example.hopen.app-lifecycle-livedata-core-2.5.1-6 C:\Users\knjokom\.gradle\caches\transforms-3\3c5ce655525e616b7ed5f4e3fd544b01\transformed\lifecycle-livedata-core-2.5.1\res
 now.example.hopen.app-browser-1.4.0-7 C:\Users\knjokom\.gradle\caches\transforms-3\4591dbb6d2504f04b8bce8d8d62bbd0f\transformed\browser-1.4.0\res
-now.example.hopen.app-firebase-common-20.3.2-8 C:\Users\knjokom\.gradle\caches\transforms-3\5fb6a89ab4075500f71bbf39d3e8697f\transformed\firebase-common-20.3.2\res
-now.example.hopen.app-play-services-base-18.0.1-9 C:\Users\knjokom\.gradle\caches\transforms-3\65a3e06dfce242ebeea7fbc6fcf9e6a9\transformed\play-services-base-18.0.1\res
+now.example.hopen.app-play-services-base-18.1.0-8 C:\Users\knjokom\.gradle\caches\transforms-3\587bbc1cfd3a606b58852ecb8e83d703\transformed\play-services-base-18.1.0\res
+now.example.hopen.app-firebase-common-20.3.2-9 C:\Users\knjokom\.gradle\caches\transforms-3\5fb6a89ab4075500f71bbf39d3e8697f\transformed\firebase-common-20.3.2\res
 now.example.hopen.app-savedstate-1.2.0-10 C:\Users\knjokom\.gradle\caches\transforms-3\7642455d3cb09c8606a1038d3490671a\transformed\savedstate-1.2.0\res
 now.example.hopen.app-recyclerview-1.1.0-11 C:\Users\knjokom\.gradle\caches\transforms-3\7e853130ac35f3155262d3d91c1bb632\transformed\recyclerview-1.1.0\res
 now.example.hopen.app-emoji2-1.2.0-12 C:\Users\knjokom\.gradle\caches\transforms-3\82574603a07b5df1af0b1dca5d0f38d9\transformed\emoji2-1.2.0\res

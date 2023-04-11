@@ -17,6 +17,7 @@ import com.google.firebase.ktx.Firebase
 import android.content.Intent
 import android.widget.Button
 import android.widget.TextView
+import com.google.android.gms.location.FusedLocationProviderClient
 import now.example.hopen.R
 import now.example.hopen.MainActivity.Companion.EXTRA_NAME
 import now.example.hopen.R.id.blow
@@ -26,6 +27,8 @@ import com.google.firebase.auth.ktx.auth
 class AnotherActivity : AppCompatActivity() {
 
     private lateinit var binding: ActivityAnotherBinding
+    private lateinit var fusedLocationClient: FusedLocationProviderClient
+
 
     @SuppressLint("MissingInflatedId")
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -65,7 +68,7 @@ class AnotherActivity : AppCompatActivity() {
 
                 var string2: String = binding.openview.toString()
                 var  openview: TextView = findViewById(R.id.openview)
-                openview.text = value
+                openview.text = thetext.toString() + " says: \n"+value
             }
 
 
