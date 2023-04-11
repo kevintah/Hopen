@@ -13,6 +13,12 @@
  
  -- Added bottom navigation
  
+ -- It asks for permission to get location
+ 
+ -- It saves your fused location
+ 
+ -- It retrieves what a users updated status with a fused location of where they updated their status
+ 
 ![alt text](https://raw.githubusercontent.com/kevintah/Hopen/main/App_images/Img1.png)
 ![alt text](https://raw.githubusercontent.com/kevintah/Hopen/main/App_images/Img2.png)
 ![alt text](https://raw.githubusercontent.com/kevintah/Hopen/main/App_images/Img3.png)
