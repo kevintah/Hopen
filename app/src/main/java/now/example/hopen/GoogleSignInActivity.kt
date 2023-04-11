@@ -67,6 +67,10 @@ class GoogleSignInActivity : AppCompatActivity() {
         val myRef = database.getReference(name.toString())
         myRef.setValue(string)
 
+        val intent = Intent(this, MainActivity::class.java)
+        // start your next activity
+        startActivity(intent)
+
 
 
     }
