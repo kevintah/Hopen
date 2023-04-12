@@ -15,6 +15,7 @@ id editText
 id google_sign_in
 id logout
 id openview
+id p_image
 id sendReport
 id textView
 id text_display_name

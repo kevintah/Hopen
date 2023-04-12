@@ -1,38 +1,29 @@
 package now.example.hopen
 
 import android.Manifest
+import android.content.ContentValues.TAG
 import android.content.Intent
-import androidx.appcompat.app.AppCompatActivity
+import android.content.pm.PackageManager
+import android.graphics.BitmapFactory
+import android.location.Location
+import android.net.Uri
 import android.os.Bundle
-import now.example.hopen.MainActivity.Companion.EXTRA_NAME
-import now.example.hopen.databinding.ActivityGoogleSignInBinding
+import android.util.Log
+import android.widget.EditText
+import android.widget.ImageView
+import androidx.activity.result.contract.ActivityResultContracts
+import androidx.appcompat.app.AppCompatActivity
+import androidx.core.app.ActivityCompat
+import com.google.android.gms.auth.api.signin.GoogleSignIn
+import com.google.android.gms.location.FusedLocationProviderClient
+import com.google.android.gms.location.LocationServices
 import com.google.firebase.auth.ktx.auth
 import com.google.firebase.database.FirebaseDatabase
 import com.google.firebase.ktx.Firebase
-import android.widget.EditText
-
-import android.content.ContentValues.TAG
-import android.content.pm.PackageManager
-import android.location.Location
-
-import android.util.Log
-import android.widget.Button
-import androidx.activity.result.contract.ActivityResultContracts
-import androidx.core.app.ActivityCompat
-import now.example.hopen.R
-import now.example.hopen.databinding.ActivityMainBinding
-import com.google.android.gms.auth.api.signin.GoogleSignIn
-import com.google.android.gms.auth.api.signin.GoogleSignInClient
-import com.google.android.gms.auth.api.signin.GoogleSignInOptions
-import com.google.android.gms.common.api.ApiException
-import com.google.android.gms.location.FusedLocationProviderClient
-import com.google.android.gms.location.LocationServices
-import com.google.firebase.FirebaseApp.getInstance
-import com.google.firebase.auth.FirebaseAuth
-import com.google.firebase.auth.FirebaseUser
-import com.google.firebase.auth.GoogleAuthProvider
-import com.google.firebase.auth.ktx.auth
-
+import now.example.hopen.MainActivity.Companion.EXTRA_NAME
+import now.example.hopen.databinding.ActivityGoogleSignInBinding
+import java.net.URI
+import java.net.URL
 
 
 class GoogleSignInActivity : AppCompatActivity() {
@@ -42,6 +33,26 @@ class GoogleSignInActivity : AppCompatActivity() {
     var client_location = "null"
 
     override fun onCreate(savedInstanceState: Bundle?) {
+
+        val acct = GoogleSignIn.getLastSignedInAccount(this)
+        if (acct != null) {
+            var personName = acct.displayName
+            var personGivenName = acct.givenName
+            var personFamilyName = acct.familyName
+            var personEmail = acct.email
+            var personId = acct.id
+            var personPhoto: Uri? = acct.photoUrl
+
+
+
+
+
+
+        }
+
+
+
+
         fusedLocationClient = LocationServices.getFusedLocationProviderClient(this)
 
         if (ActivityCompat.checkSelfPermission(
@@ -91,6 +102,24 @@ class GoogleSignInActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding = ActivityGoogleSignInBinding.inflate(layoutInflater)
         setContentView(binding.root)
+
+        if (acct != null) {
+            var personName = acct.displayName
+            var personGivenName = acct.givenName
+            var personFamilyName = acct.familyName
+            var personEmail = acct.email
+            var personId = acct.id
+            var personPhoto: Uri? = acct.photoUrl
+
+            var photo : ImageView = findViewById(R.id.p_image)
+
+            Log.v(TAG, photo.toString());
+
+
+        }
+
+
+
 
         binding.textDisplayName.text = intent.getStringExtra(EXTRA_NAME)
         binding.logout.setOnClickListener {
@@ -154,4 +183,9 @@ class GoogleSignInActivity : AppCompatActivity() {
 
 
     }
+
+
+
+
+
 }
