@@ -152,6 +152,10 @@
                 android:name="androidx.lifecycle.ProcessLifecycleInitializer"
                 android:value="androidx.startup" />
         </provider>
+        <provider
+            android:name="com.squareup.picasso.PicassoProvider"
+            android:authorities="now.example.hopen.com.squareup.picasso"
+            android:exported="false" />
     </application>
 
 </manifest>

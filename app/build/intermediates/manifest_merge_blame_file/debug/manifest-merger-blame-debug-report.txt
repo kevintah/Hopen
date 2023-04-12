@@ -278,6 +278,14 @@
 153                android:value="androidx.startup" />
 153-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\knjokom\.gradle\caches\transforms-3\35fdca1f858a436aa79efa1afa2513b7\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
 154        </provider>
-155    </application>
-156
-157</manifest>
+155        <provider
+155-->[com.squareup.picasso:picasso:2.71828] C:\Users\knjokom\.gradle\caches\transforms-3\2827585529033d5b81246a0fdbe5ecd2\transformed\picasso-2.71828\AndroidManifest.xml:8:9-11:40
+156            android:name="com.squareup.picasso.PicassoProvider"
+156-->[com.squareup.picasso:picasso:2.71828] C:\Users\knjokom\.gradle\caches\transforms-3\2827585529033d5b81246a0fdbe5ecd2\transformed\picasso-2.71828\AndroidManifest.xml:9:13-64
+157            android:authorities="now.example.hopen.com.squareup.picasso"
+157-->[com.squareup.picasso:picasso:2.71828] C:\Users\knjokom\.gradle\caches\transforms-3\2827585529033d5b81246a0fdbe5ecd2\transformed\picasso-2.71828\AndroidManifest.xml:10:13-72
+158            android:exported="false" />
+158-->[com.squareup.picasso:picasso:2.71828] C:\Users\knjokom\.gradle\caches\transforms-3\2827585529033d5b81246a0fdbe5ecd2\transformed\picasso-2.71828\AndroidManifest.xml:11:13-37
+159    </application>
+160
+161</manifest>

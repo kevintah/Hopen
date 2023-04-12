@@ -4,26 +4,33 @@ import android.Manifest
 import android.content.ContentValues.TAG
 import android.content.Intent
 import android.content.pm.PackageManager
+import android.graphics.Bitmap
 import android.graphics.BitmapFactory
 import android.location.Location
 import android.net.Uri
 import android.os.Bundle
+import android.os.Handler
+import android.os.Looper
 import android.util.Log
 import android.widget.EditText
 import android.widget.ImageView
 import androidx.activity.result.contract.ActivityResultContracts
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.app.ActivityCompat
+import androidx.core.net.toUri
+import androidx.databinding.BindingAdapter
 import com.google.android.gms.auth.api.signin.GoogleSignIn
 import com.google.android.gms.location.FusedLocationProviderClient
 import com.google.android.gms.location.LocationServices
 import com.google.firebase.auth.ktx.auth
 import com.google.firebase.database.FirebaseDatabase
 import com.google.firebase.ktx.Firebase
+import com.squareup.picasso.Picasso
 import now.example.hopen.MainActivity.Companion.EXTRA_NAME
 import now.example.hopen.databinding.ActivityGoogleSignInBinding
 import java.net.URI
 import java.net.URL
+import java.util.concurrent.Executors
 
 
 class GoogleSignInActivity : AppCompatActivity() {
@@ -114,6 +121,10 @@ class GoogleSignInActivity : AppCompatActivity() {
             var photo : ImageView = findViewById(R.id.p_image)
 
             Log.v(TAG, photo.toString());
+
+            //val imageUri = "https://i.imgur.com/tGbaZCY.jpg"
+            Picasso.get().load(personPhoto).into(photo)
+
 
 
         }
