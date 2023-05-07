@@ -23,22 +23,30 @@
 
     <EditText
         android:id="@+id/user"
-        android:layout_width="262dp"
-        android:layout_height="133dp"
-        android:text=""
+        android:layout_width="300dp"
+        android:layout_height="89dp"
         android:hint="@string/enter_name"
+        android:text=""
 
         />
 
     <com.google.android.material.bottomnavigation.BottomNavigationView
         android:layout_width="match_parent"
-        android:layout_height="match_parent" >
+        android:layout_height="match_parent"
+        android:gravity="bottom">
+
+        <com.google.android.gms.maps.MapView
+            android:id="@+id/map"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
 
         <Button
             android:id="@+id/blow"
             android:layout_width="match_parent"
-            android:layout_height="265dp"
+            android:layout_height="206dp"
+            android:layout_gravity="bottom"
             android:text="Peek" />
+
     </com.google.android.material.bottomnavigation.BottomNavigationView>
 
 

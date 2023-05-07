@@ -14,6 +14,7 @@ id btnStartAnotherActivity
 id editText
 id google_sign_in
 id logout
+id map
 id openview
 id p_image
 id sendReport

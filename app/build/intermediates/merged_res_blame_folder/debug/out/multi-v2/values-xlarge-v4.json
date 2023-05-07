@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "now.example.hopen.app-mergeDebugResources-33:/values-xlarge-v4/values-xlarge-v4.xml",
+            "outputFile": "now.example.hopen.app-mergeDebugResources-34:/values-xlarge-v4/values-xlarge-v4.xml",
             "map": [
                 {
                     "source": "C:\\Users\\knjokom\\.gradle\\caches\\transforms-3\\0f058cc9808a82e06217ed5b9b9badd9\\transformed\\appcompat-1.6.1\\res\\values-xlarge-v4\\values-xlarge-v4.xml",

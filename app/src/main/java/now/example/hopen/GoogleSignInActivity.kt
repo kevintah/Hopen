@@ -14,6 +14,7 @@ import android.os.Looper
 import android.util.Log
 import android.widget.EditText
 import android.widget.ImageView
+import android.widget.Toast
 import androidx.activity.result.contract.ActivityResultContracts
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.app.ActivityCompat
@@ -28,6 +29,7 @@ import com.google.firebase.ktx.Firebase
 import com.squareup.picasso.Picasso
 import now.example.hopen.MainActivity.Companion.EXTRA_NAME
 import now.example.hopen.databinding.ActivityGoogleSignInBinding
+import org.json.JSONObject
 import java.net.URI
 import java.net.URL
 import java.util.concurrent.Executors
@@ -180,9 +182,20 @@ class GoogleSignInActivity : AppCompatActivity() {
         }
         fusedLocationClient.lastLocation
             .addOnSuccessListener { location : Location? ->
-                // Got last known location. In some rare situations this can be null.
 
-                myRef.setValue(string + "\n  \n corresponding @ : \n \n" + location)
+                val latitude = location?.latitude
+                val longitude = location?.longitude
+                // Got last known location. In some rare situations this can be null.
+                val dataToSend = JSONObject()
+                dataToSend.put("status", string)
+                dataToSend.put("location", location)
+                dataToSend.put("latitude",latitude)
+                dataToSend.put("longitude", longitude)
+
+                myRef.setValue(dataToSend.toString())
+
+
+            //myRef.setValue(string + "\n  \n corresponding @ : \n \n" + location)
 
             }
 
