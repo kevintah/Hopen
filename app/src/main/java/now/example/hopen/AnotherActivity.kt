@@ -60,6 +60,7 @@ class AnotherActivity : AppCompatActivity() {
 
         // Read from the database
         Ref2.addValueEventListener(object : ValueEventListener {
+            @SuppressLint("SuspiciousIndentation")
             override fun onDataChange(dataSnapshot: DataSnapshot) {
                 // This method is called once with the initial value and again
                 // whenever data at this location is updated.
