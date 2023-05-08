@@ -32,6 +32,7 @@ import now.example.hopen.databinding.ActivityGoogleSignInBinding
 import org.json.JSONObject
 import java.net.URI
 import java.net.URL
+import java.sql.Timestamp
 import java.util.concurrent.Executors
 
 
@@ -185,12 +186,15 @@ class GoogleSignInActivity : AppCompatActivity() {
 
                 val latitude = location?.latitude
                 val longitude = location?.longitude
+                val currentTimeMillis = System.currentTimeMillis()
+                val timestamp =  Timestamp(currentTimeMillis)
                 // Got last known location. In some rare situations this can be null.
                 val dataToSend = JSONObject()
                 dataToSend.put("status", string)
                 dataToSend.put("location", location)
                 dataToSend.put("latitude",latitude)
                 dataToSend.put("longitude", longitude)
+                dataToSend.put("timestamp",timestamp)
 
                 myRef.setValue(dataToSend.toString())
 

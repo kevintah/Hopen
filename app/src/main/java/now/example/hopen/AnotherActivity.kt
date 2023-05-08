@@ -71,12 +71,13 @@ class AnotherActivity : AppCompatActivity() {
                 val location = value2.getString("location")
                 val longitude = value2.getString("longitude")
                 val latitude = value2.getString("latitude")
+                val moment = value2.getString("timestamp")
 
                 Log.d(TAG, "Value is: $value")
 
                 var string2: String = binding.openview.toString()
                 var openview: TextView = findViewById(R.id.openview)
-                openview.text = thetext.toString() + " says: \n" + status
+                openview.text = thetext.toString() + " says: \n" + status+ "\n"+ moment
 
                 val mapView = findViewById<MapView>(R.id.map)
                 val location2 = LatLng(latitude.toDouble(), longitude.toDouble())
