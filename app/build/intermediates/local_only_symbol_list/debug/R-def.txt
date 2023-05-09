@@ -17,6 +17,7 @@ id logout
 id map
 id openview
 id p_image
+id personPhoto
 id sendReport
 id textView
 id text_display_name

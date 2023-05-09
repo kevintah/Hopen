@@ -16,6 +16,7 @@ import com.google.firebase.database.ktx.getValue
 import com.google.firebase.ktx.Firebase
 import android.content.Intent
 import android.widget.Button
+import android.widget.ImageView
 import android.widget.TextView
 import com.google.android.gms.location.FusedLocationProviderClient
 import com.google.android.gms.maps.CameraUpdateFactory
@@ -28,6 +29,7 @@ import now.example.hopen.MainActivity.Companion.EXTRA_NAME
 import now.example.hopen.R.id.blow
 import now.example.hopen.databinding.ActivityAnotherBinding
 import com.google.firebase.auth.ktx.auth
+import com.squareup.picasso.Picasso
 import org.json.JSONObject
 
 class AnotherActivity : AppCompatActivity() {
@@ -72,6 +74,9 @@ class AnotherActivity : AppCompatActivity() {
                 val longitude = value2.getString("longitude")
                 val latitude = value2.getString("latitude")
                 val moment = value2.getString("timestamp")
+                val personPhoto = value2.getString("personPhoto")
+
+
 
                 Log.d(TAG, "Value is: $value")
 
@@ -81,6 +86,14 @@ class AnotherActivity : AppCompatActivity() {
 
                 val mapView = findViewById<MapView>(R.id.map)
                 val location2 = LatLng(latitude.toDouble(), longitude.toDouble())
+
+
+                var photo : ImageView = findViewById(R.id.personPhoto)
+
+                Log.v(TAG, photo.toString());
+
+                //val imageUri = "https://i.imgur.com/tGbaZCY.jpg"
+                Picasso.get().load(personPhoto).into(photo)
 
                 // Add the missing curly brace here
 

@@ -188,6 +188,11 @@ class GoogleSignInActivity : AppCompatActivity() {
                 val longitude = location?.longitude
                 val currentTimeMillis = System.currentTimeMillis()
                 val timestamp =  Timestamp(currentTimeMillis)
+                val acct = GoogleSignIn.getLastSignedInAccount(this)
+
+
+                    var personPhoto: Uri? = acct?.photoUrl
+
                 // Got last known location. In some rare situations this can be null.
                 val dataToSend = JSONObject()
                 dataToSend.put("status", string)
@@ -195,6 +200,7 @@ class GoogleSignInActivity : AppCompatActivity() {
                 dataToSend.put("latitude",latitude)
                 dataToSend.put("longitude", longitude)
                 dataToSend.put("timestamp",timestamp)
+                dataToSend.put("personPhoto",personPhoto)
 
                 myRef.setValue(dataToSend.toString())
 
